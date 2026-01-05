@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "question": "Quel type de développeur/développeuse êtes-vous ? (Frontend, Backend, Fullstack, DevOps, Mobile, etc.)",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 2,
+        "question": "Qui est votre super-héros tech ? (Linus Torvalds, Tim Berners-Lee, Grace Hopper, Ada Lovelace, etc.)",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 3,
+        "question": "Quel est votre langage de programmation préféré et pourquoi ? 💻",
+        "type": "text",
+        "category": "Général"
+    },
+    {
+        "id": 4,
+        "question": "Quel est votre framework ou outil préféré et pourquoi vous l'aimez ?",
+        "type": "text",
+        "category": "Développement"
+    },
+    {
+        "id": 5,
+        "question": "Quelle est votre plus grande frustration en tant que développeur/développeuse ? 😅",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 6,
+        "question": "Quel est le bug le plus amusant ou frustrant que vous ayez jamais rencontré ? 🐛",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 7,
+        "question": "Si vous pouviez créer n'importe quelle application, quelle serait-elle ? 🚀",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 8,
+        "question": "Quel est votre projet tech de rêve ? (Celui que vous aimeriez réaliser un jour)",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 9,
+        "question": "Quelle technologie vous passionne le plus en ce moment ? (IA, Blockchain, Web3, etc.)",
+        "type": "text",
+        "category": "Tech"
+    },
+    {
+        "id": 10,
+        "question": "Quel est votre IDE ou éditeur de code préféré et pourquoi ?",
+        "type": "text",
+        "category": "Outils"
+    },
+    {
+        "id": 11,
+        "question": "Préférez-vous travailler seul(e) ou en équipe ? Pourquoi ?",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 12,
+        "question": "Quel est votre moment préféré dans le processus de développement ? (Design, Code, Test, Déploiement, etc.)",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 13,
+        "question": "Quelle est votre stack technologique de prédilection ? (MEAN, MERN, LAMP, etc.)",
+        "type": "text",
+        "category": "Développement"
+    },
+    {
+        "id": 14,
+        "question": "Quel conseil donneriez-vous à un développeur/développeuse débutant ? 💡",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 15,
+        "question": "Quel est votre projet open source préféré et pourquoi ?",
+        "type": "text",
+        "category": "Général"
+    },
+    {
+        "id": 16,
+        "question": "Quelle est votre citation tech préférée ? (Inspirante, drôle, ou les deux !)",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 17,
+        "question": "Quel est votre plus grand défi technique actuel ?",
+        "type": "text",
+        "category": "Tech"
+    },
+    {
+        "id": 18,
+        "question": "Préférez-vous le développement web, mobile, desktop, ou autre ? Pourquoi ?",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 19,
+        "question": "Quelle est votre méthode préférée pour déboguer du code ? 🐛",
+        "type": "text",
+        "category": "Développement"
+    },
+    {
+        "id": 20,
+        "question": "Quel est votre livre ou ressource tech préféré(e) ? (Pour apprendre ou s'inspirer)",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 21,
+        "question": "Quelle est votre fonctionnalité tech préférée dans votre langage de programmation ?",
+        "type": "text",
+        "category": "Programmation"
+    },
+    {
+        "id": 22,
+        "question": "Quel est votre plus grand accomplissement en tant que développeur/développeuse ? 🎉",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 23,
+        "question": "Quelle technologie aimeriez-vous apprendre cette année ?",
+        "type": "text",
+        "category": "Tech"
+    },
+    {
+        "id": 24,
+        "question": "Quel est votre workflow de développement idéal ? (Décrivez votre journée parfaite de dev)",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 25,
+        "question": "Quelle est votre approche préférée pour résoudre un problème complexe ?",
+        "type": "text",
+        "category": "Développement"
+    },
+    {
+        "id": 26,
+        "question": "Quel est votre outil de productivité préféré pour le développement ?",
+        "type": "text",
+        "category": "Outils"
+    },
+    {
+        "id": 27,
+        "question": "Quelle est votre communauté tech préférée ? (Reddit, Stack Overflow, GitHub, Discord, etc.)",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 28,
+        "question": "Quel est votre plus grand objectif en tant que développeur/développeuse ?",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 29,
+        "question": "Quelle est votre expérience la plus mémorable avec le code ? (Positive ou négative !)",
+        "type": "text",
+        "category": "Fun"
+    },
+    {
+        "id": 30,
+        "question": "Quel est votre conseil pour maintenir un bon équilibre vie professionnelle/vie privée en tant que dev ?",
+        "type": "text",
+        "category": "Fun"
+    }
+]

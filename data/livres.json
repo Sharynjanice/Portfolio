@@ -1,0 +1,1697 @@
+[
+    {
+        "title": "Harry Potter à l'école des sorciers",
+        "author": "J.K. Rowling",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/harry-potter-1.jpg",
+        "rating": 5,
+        "review": "Un classique absolu ! L'univers créé par J.K. Rowling est incroyablement riche et immersif. Ce premier tome pose les bases d'une saga qui m'a accompagnée pendant toute mon adolescence. Les personnages sont attachants, l'intrigue est bien menée, et l'ambiance magique est parfaitement rendue. Une lecture qui ne vieillit jamais."
+    },
+    {
+        "title": "Harry Potter et la Chambre des secrets",
+        "author": "J.K. Rowling",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/harry-potter-2.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Harry Potter et le Prisonnier d'Azkaban",
+        "author": "J.K. Rowling",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/harry-potter-3.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Harry Potter et la Coupe de feu",
+        "author": "J.K. Rowling",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/harry-potter-4.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Throne of Glass (La Reine de verre)",
+        "author": "Sarah J. Maas",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/throne-of-glass.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Crown of Midnight",
+        "author": "Sarah J. Maas",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/crown-of-midnight.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Heir of Fire",
+        "author": "Sarah J. Maas",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/heir-of-fire.jpg",
+        "rating": 5
+    },
+    {
+        "title": "A Court of Thorns and Roses",
+        "author": "Sarah J. Maas",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/acotar.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Comte de Monte-Cristo",
+        "author": "Alexandre Dumas",
+        "genre": "Historique",
+        "cover": "data/assests/image/monte-cristo.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Les Trois Mousquetaires",
+        "author": "Alexandre Dumas",
+        "genre": "Historique",
+        "cover": "data/assests/image/trois-mousquetaires.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Parfum",
+        "author": "Patrick Süskind",
+        "genre": "Policier",
+        "cover": "data/assests/image/parfum.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Silence des agneaux",
+        "author": "Thomas Harris",
+        "genre": "Policier",
+        "cover": "data/assests/image/silence-agneaux.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Da Vinci Code",
+        "author": "Dan Brown",
+        "genre": "Policier",
+        "cover": "data/assests/image/da-vinci-code.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Misérables",
+        "author": "Victor Hugo",
+        "genre": "Historique",
+        "cover": "data/assests/image/miserables.jpg",
+        "rating": 5
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/1984.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Seigneur des Anneaux",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/lotr.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Game of Thrones",
+        "author": "George R.R. Martin",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/got.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Étranger",
+        "author": "Albert Camus",
+        "genre": "Littérature",
+        "cover": "data/assests/image/etranger.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Petit Prince",
+        "author": "Antoine de Saint-Exupéry",
+        "genre": "Littérature",
+        "cover": "data/assests/image/petit-prince.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/dune.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Fondation",
+        "author": "Isaac Asimov",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/fondation.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Sherlock Holmes - Une étude en rouge",
+        "author": "Arthur Conan Doyle",
+        "genre": "Policier",
+        "cover": "data/assests/image/sherlock-holmes.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Assassin royal",
+        "author": "Robin Hobb",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/assassin-royal.jpg",
+        "rating": 4
+    },
+    {
+        "title": "La Passe-miroir",
+        "author": "Christelle Dabos",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/passe-miroir.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Château de verre",
+        "author": "Jeannette Walls",
+        "genre": "Biographie",
+        "cover": "data/assests/image/chateau-verre.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Harry Potter et l'Ordre du Phénix",
+        "author": "J.K. Rowling",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/harry-potter-5.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Harry Potter et le Prince de sang-mêlé",
+        "author": "J.K. Rowling",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/harry-potter-6.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Harry Potter et les Reliques de la Mort",
+        "author": "J.K. Rowling",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/harry-potter-7.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Queen of Shadows",
+        "author": "Sarah J. Maas",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/queen-of-shadows.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Empire of Storms",
+        "author": "Sarah J. Maas",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/empire-of-storms.jpg",
+        "rating": 5
+    },
+    {
+        "title": "A Court of Mist and Fury",
+        "author": "Sarah J. Maas",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/acomaf.jpg",
+        "rating": 5
+    },
+    {
+        "title": "A Court of Wings and Ruin",
+        "author": "Sarah J. Maas",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/acowar.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Nom du vent",
+        "author": "Patrick Rothfuss",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/nom-du-vent.jpg",
+        "rating": 5
+    },
+    {
+        "title": "La Peur du sage",
+        "author": "Patrick Rothfuss",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/peur-du-sage.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Assassin du roi",
+        "author": "Patrick Rothfuss",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/assassin-du-roi.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Mistborn: L'Alliance Finale",
+        "author": "Brandon Sanderson",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/mistborn-1.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Mistborn: Le Puits de l'Ascension",
+        "author": "Brandon Sanderson",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/mistborn-2.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Mistborn: Le Héros des Âges",
+        "author": "Brandon Sanderson",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/mistborn-3.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Épée de vérité",
+        "author": "Terry Goodkind",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/epee-verite.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Cycle de l'Assassin Royal - Tome 1",
+        "author": "Robin Hobb",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/assassin-royal-1.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Cycle de l'Assassin Royal - Tome 2",
+        "author": "Robin Hobb",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/assassin-royal-2.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Cycle de l'Assassin Royal - Tome 3",
+        "author": "Robin Hobb",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/assassin-royal-3.jpg",
+        "rating": 4
+    },
+    {
+        "title": "La Passe-miroir - Tome 2",
+        "author": "Christelle Dabos",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/passe-miroir-2.jpg",
+        "rating": 5
+    },
+    {
+        "title": "La Passe-miroir - Tome 3",
+        "author": "Christelle Dabos",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/passe-miroir-3.jpg",
+        "rating": 5
+    },
+    {
+        "title": "La Passe-miroir - Tome 4",
+        "author": "Christelle Dabos",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/passe-miroir-4.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Hobbit",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/hobbit.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Silmarillion",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/silmarillion.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Enfants de Húrin",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/enfants-hurin.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Trône de fer",
+        "author": "George R.R. Martin",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/trone-fer.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Donjon rouge",
+        "author": "George R.R. Martin",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/donjon-rouge.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Tempête de Swords",
+        "author": "George R.R. Martin",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/tempete-swords.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Festin des Corbeaux",
+        "author": "George R.R. Martin",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/festin-corbeaux.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Une Danse avec les Dragons",
+        "author": "George R.R. Martin",
+        "genre": "Fantasy",
+        "cover": "data/assests/image/danse-dragons.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Dune - Messie de Dune",
+        "author": "Frank Herbert",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/dune-2.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Dune - Les Enfants de Dune",
+        "author": "Frank Herbert",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/dune-3.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Fondation et Empire",
+        "author": "Isaac Asimov",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/fondation-2.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Seconde Fondation",
+        "author": "Isaac Asimov",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/fondation-3.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Les Robots",
+        "author": "Isaac Asimov",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/robots.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Guide du voyageur galactique",
+        "author": "Douglas Adams",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/guide-galactique.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Dernier Restaurant avant la fin du monde",
+        "author": "Douglas Adams",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/restaurant-fin-monde.jpg",
+        "rating": 4
+    },
+    {
+        "title": "La Vie, l'Univers et le Reste",
+        "author": "Douglas Adams",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/vie-univers-reste.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/fahrenheit-451.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Meilleur des mondes",
+        "author": "Aldous Huxley",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/meilleur-mondes.jpg",
+        "rating": 5
+    },
+    {
+        "title": "La Machine à remonter le temps",
+        "author": "H.G. Wells",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/machine-temps.jpg",
+        "rating": 4
+    },
+    {
+        "title": "L'Île du docteur Moreau",
+        "author": "H.G. Wells",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/ile-moreau.jpg",
+        "rating": 4
+    },
+    {
+        "title": "La Guerre des mondes",
+        "author": "H.G. Wells",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/guerre-mondes.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Neuromancien",
+        "author": "William Gibson",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/neuromancien.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Blade Runner",
+        "author": "Philip K. Dick",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/blade-runner.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Ubik",
+        "author": "Philip K. Dick",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/ubik.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Androïdes rêvent-ils de moutons électriques ?",
+        "author": "Philip K. Dick",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/androides-moutons.jpg",
+        "rating": 5
+    },
+    {
+        "title": "La Nuit des temps",
+        "author": "René Barjavel",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/nuit-temps.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Ravage",
+        "author": "René Barjavel",
+        "genre": "Science-fiction",
+        "cover": "data/assests/image/ravage.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Grand Meaulnes",
+        "author": "Alain-Fournier",
+        "genre": "Littérature",
+        "cover": "data/assests/image/grand-meaulnes.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Madame Bovary",
+        "author": "Gustave Flaubert",
+        "genre": "Littérature",
+        "cover": "data/assests/image/madame-bovary.jpg",
+        "rating": 4
+    },
+    {
+        "title": "L'Éducation sentimentale",
+        "author": "Gustave Flaubert",
+        "genre": "Littérature",
+        "cover": "data/assests/image/education-sentimentale.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Bel-Ami",
+        "author": "Guy de Maupassant",
+        "genre": "Littérature",
+        "cover": "data/assests/image/bel-ami.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Une vie",
+        "author": "Guy de Maupassant",
+        "genre": "Littérature",
+        "cover": "data/assests/image/une-vie.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Rouge et le Noir",
+        "author": "Stendhal",
+        "genre": "Littérature",
+        "cover": "data/assests/image/rouge-noir.jpg",
+        "rating": 5
+    },
+    {
+        "title": "La Chartreuse de Parme",
+        "author": "Stendhal",
+        "genre": "Littérature",
+        "cover": "data/assests/image/chartreuse-parme.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Notre-Dame de Paris",
+        "author": "Victor Hugo",
+        "genre": "Historique",
+        "cover": "data/assests/image/notre-dame-paris.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Les Contemplations",
+        "author": "Victor Hugo",
+        "genre": "Poésie",
+        "cover": "data/assests/image/contemplations.jpg",
+        "rating": 4
+    },
+    {
+        "title": "La Peste",
+        "author": "Albert Camus",
+        "genre": "Littérature",
+        "cover": "data/assests/image/peste.jpg",
+        "rating": 5
+    },
+    {
+        "title": "La Chute",
+        "author": "Albert Camus",
+        "genre": "Littérature",
+        "cover": "data/assests/image/chute.jpg",
+        "rating": 4
+    },
+    {
+        "title": "L'Homme révolté",
+        "author": "Albert Camus",
+        "genre": "Philosophie",
+        "cover": "data/assests/image/homme-revolte.jpg",
+        "rating": 4
+    },
+    {
+        "title": "La Nausée",
+        "author": "Jean-Paul Sartre",
+        "genre": "Littérature",
+        "cover": "data/assests/image/nausee.jpg",
+        "rating": 4
+    },
+    {
+        "title": "L'Être et le Néant",
+        "author": "Jean-Paul Sartre",
+        "genre": "Philosophie",
+        "cover": "data/assests/image/etre-neant.jpg",
+        "rating": 3
+    },
+    {
+        "title": "L'Écume des jours",
+        "author": "Boris Vian",
+        "genre": "Littérature",
+        "cover": "data/assests/image/ecume-jours.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Voyage au bout de la nuit",
+        "author": "Louis-Ferdinand Céline",
+        "genre": "Littérature",
+        "cover": "data/assests/image/voyage-nuit.jpg",
+        "rating": 4
+    },
+    {
+        "title": "À la recherche du temps perdu - Du côté de chez Swann",
+        "author": "Marcel Proust",
+        "genre": "Littérature",
+        "cover": "data/assests/image/temps-perdu-1.jpg",
+        "rating": 4
+    },
+    {
+        "title": "À l'ombre des jeunes filles en fleurs",
+        "author": "Marcel Proust",
+        "genre": "Littérature",
+        "cover": "data/assests/image/temps-perdu-2.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Guépard",
+        "author": "Giuseppe Tomasi di Lampedusa",
+        "genre": "Littérature",
+        "cover": "data/assests/image/guepard.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Cent ans de solitude",
+        "author": "Gabriel García Márquez",
+        "genre": "Littérature",
+        "cover": "data/assests/image/cent-ans-solitude.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Amour aux temps du choléra",
+        "author": "Gabriel García Márquez",
+        "genre": "Littérature",
+        "cover": "data/assests/image/amour-cholera.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Attrape-cœurs",
+        "author": "J.D. Salinger",
+        "genre": "Littérature",
+        "cover": "data/assests/image/attrape-coeurs.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Vieil Homme et la Mer",
+        "author": "Ernest Hemingway",
+        "genre": "Littérature",
+        "cover": "data/assests/image/vieil-homme-mer.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Pour qui sonne le glas",
+        "author": "Ernest Hemingway",
+        "genre": "Littérature",
+        "cover": "data/assests/image/pour-qui-sonne-glas.jpg",
+        "rating": 4
+    },
+    {
+        "title": "L'Adieu aux armes",
+        "author": "Ernest Hemingway",
+        "genre": "Littérature",
+        "cover": "data/assests/image/adieu-armes.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Gatsby le Magnifique",
+        "author": "F. Scott Fitzgerald",
+        "genre": "Littérature",
+        "cover": "data/assests/image/gatsby.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Orgueil et Préjugés",
+        "author": "Jane Austen",
+        "genre": "Littérature",
+        "cover": "data/assests/image/orgueil-prejuges.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Raison et Sentiments",
+        "author": "Jane Austen",
+        "genre": "Littérature",
+        "cover": "data/assests/image/raison-sentiments.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "genre": "Littérature",
+        "cover": "data/assests/image/jane-eyre.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Les Hauts de Hurlevent",
+        "author": "Emily Brontë",
+        "genre": "Littérature",
+        "cover": "data/assests/image/hauts-hurlevent.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "genre": "Littérature",
+        "cover": "data/assests/image/moby-dick.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Aventures de Tom Sawyer",
+        "author": "Mark Twain",
+        "genre": "Littérature",
+        "cover": "data/assests/image/tom-sawyer.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Aventures de Huckleberry Finn",
+        "author": "Mark Twain",
+        "genre": "Littérature",
+        "cover": "data/assests/image/huckleberry-finn.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Portrait de Dorian Gray",
+        "author": "Oscar Wilde",
+        "genre": "Littérature",
+        "cover": "data/assests/image/dorian-gray.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Importance d'être Constant",
+        "author": "Oscar Wilde",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/importance-constant.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Crime et Châtiment",
+        "author": "Fiodor Dostoïevski",
+        "genre": "Littérature",
+        "cover": "data/assests/image/crime-chatiment.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Les Frères Karamazov",
+        "author": "Fiodor Dostoïevski",
+        "genre": "Littérature",
+        "cover": "data/assests/image/freres-karamazov.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Idiot",
+        "author": "Fiodor Dostoïevski",
+        "genre": "Littérature",
+        "cover": "data/assests/image/idiot.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Guerre et Paix",
+        "author": "Léon Tolstoï",
+        "genre": "Historique",
+        "cover": "data/assests/image/guerre-paix.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Anna Karénine",
+        "author": "Léon Tolstoï",
+        "genre": "Littérature",
+        "cover": "data/assests/image/anna-karenine.jpg",
+        "rating": 5
+    },
+    {
+        "title": "La Métamorphose",
+        "author": "Franz Kafka",
+        "genre": "Littérature",
+        "cover": "data/assests/image/metamorphose.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Procès",
+        "author": "Franz Kafka",
+        "genre": "Littérature",
+        "cover": "data/assests/image/proces.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Château",
+        "author": "Franz Kafka",
+        "genre": "Littérature",
+        "cover": "data/assests/image/chateau-kafka.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Lolita",
+        "author": "Vladimir Nabokov",
+        "genre": "Littérature",
+        "cover": "data/assests/image/lolita.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Parrain",
+        "author": "Mario Puzo",
+        "genre": "Policier",
+        "cover": "data/assests/image/parrain.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Shining",
+        "author": "Stephen King",
+        "genre": "Horreur",
+        "cover": "data/assests/image/shining.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Ça",
+        "author": "Stephen King",
+        "genre": "Horreur",
+        "cover": "data/assests/image/ca.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Misery",
+        "author": "Stephen King",
+        "genre": "Horreur",
+        "cover": "data/assests/image/misery.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Carrie",
+        "author": "Stephen King",
+        "genre": "Horreur",
+        "cover": "data/assests/image/carrie.jpg",
+        "rating": 4
+    },
+    {
+        "title": "L'Exorciste",
+        "author": "William Peter Blatty",
+        "genre": "Horreur",
+        "cover": "data/assests/image/exorciste.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "genre": "Horreur",
+        "cover": "data/assests/image/dracula.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "genre": "Horreur",
+        "cover": "data/assests/image/frankenstein.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Étrange Cas du Dr Jekyll et de Mr Hyde",
+        "author": "Robert Louis Stevenson",
+        "genre": "Horreur",
+        "cover": "data/assests/image/jekyll-hyde.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Anges et Démons",
+        "author": "Dan Brown",
+        "genre": "Policier",
+        "cover": "data/assests/image/anges-demons.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Inferno",
+        "author": "Dan Brown",
+        "genre": "Policier",
+        "cover": "data/assests/image/inferno.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Symbole perdu",
+        "author": "Dan Brown",
+        "genre": "Policier",
+        "cover": "data/assests/image/symbole-perdu.jpg",
+        "rating": 3
+    },
+    {
+        "title": "Le Pendu de Saint-Pholien",
+        "author": "Georges Simenon",
+        "genre": "Policier",
+        "cover": "data/assests/image/pendu-saint-pholien.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Maigret et le Clochard",
+        "author": "Georges Simenon",
+        "genre": "Policier",
+        "cover": "data/assests/image/maigret-clochard.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Aventures de Sherlock Holmes",
+        "author": "Arthur Conan Doyle",
+        "genre": "Policier",
+        "cover": "data/assests/image/sherlock-aventures.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Chien des Baskerville",
+        "author": "Arthur Conan Doyle",
+        "genre": "Policier",
+        "cover": "data/assests/image/chien-baskerville.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Signe des quatre",
+        "author": "Arthur Conan Doyle",
+        "genre": "Policier",
+        "cover": "data/assests/image/signe-quatre.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Dix Petits Nègres",
+        "author": "Agatha Christie",
+        "genre": "Policier",
+        "cover": "data/assests/image/dix-petits-negres.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Meurtre de Roger Ackroyd",
+        "author": "Agatha Christie",
+        "genre": "Policier",
+        "cover": "data/assests/image/meurtre-ackroyd.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Mort sur le Nil",
+        "author": "Agatha Christie",
+        "genre": "Policier",
+        "cover": "data/assests/image/mort-nil.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Crime de l'Orient-Express",
+        "author": "Agatha Christie",
+        "genre": "Policier",
+        "cover": "data/assests/image/crime-orient-express.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Sapiens: Une brève histoire de l'humanité",
+        "author": "Yuval Noah Harari",
+        "genre": "Histoire",
+        "cover": "data/assests/image/sapiens.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Homo Deus: Une brève histoire du futur",
+        "author": "Yuval Noah Harari",
+        "genre": "Histoire",
+        "cover": "data/assests/image/homo-deus.jpg",
+        "rating": 5
+    },
+    {
+        "title": "21 Leçons pour le XXIe siècle",
+        "author": "Yuval Noah Harari",
+        "genre": "Histoire",
+        "cover": "data/assests/image/21-lecons.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Steve Jobs",
+        "author": "Walter Isaacson",
+        "genre": "Biographie",
+        "cover": "data/assests/image/steve-jobs.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Einstein: Sa vie, son œuvre",
+        "author": "Walter Isaacson",
+        "genre": "Biographie",
+        "cover": "data/assests/image/einstein.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Leonardo da Vinci",
+        "author": "Walter Isaacson",
+        "genre": "Biographie",
+        "cover": "data/assests/image/leonardo.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Mémoires d'Hadrien",
+        "author": "Marguerite Yourcenar",
+        "genre": "Historique",
+        "cover": "data/assests/image/memoires-hadrien.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Œuvre au noir",
+        "author": "Marguerite Yourcenar",
+        "genre": "Historique",
+        "cover": "data/assests/image/oeuvre-noir.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Mémoires de guerre",
+        "author": "Charles de Gaulle",
+        "genre": "Biographie",
+        "cover": "data/assests/image/memoires-guerre.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Une vie",
+        "author": "Simone Veil",
+        "genre": "Biographie",
+        "cover": "data/assests/image/simone-veil.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Je me souviens",
+        "author": "Georges Perec",
+        "genre": "Littérature",
+        "cover": "data/assests/image/je-me-souviens.jpg",
+        "rating": 4
+    },
+    {
+        "title": "La Disparition",
+        "author": "Georges Perec",
+        "genre": "Littérature",
+        "cover": "data/assests/image/disparition.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Choses",
+        "author": "Georges Perec",
+        "genre": "Littérature",
+        "cover": "data/assests/image/choses.jpg",
+        "rating": 4
+    },
+    {
+        "title": "La Condition humaine",
+        "author": "André Malraux",
+        "genre": "Littérature",
+        "cover": "data/assests/image/condition-humaine.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Espoir",
+        "author": "André Malraux",
+        "genre": "Littérature",
+        "cover": "data/assests/image/espoir.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Bonjour tristesse",
+        "author": "Françoise Sagan",
+        "genre": "Littérature",
+        "cover": "data/assests/image/bonjour-tristesse.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Un certain sourire",
+        "author": "Françoise Sagan",
+        "genre": "Littérature",
+        "cover": "data/assests/image/certain-sourire.jpg",
+        "rating": 4
+    },
+    {
+        "title": "La Gloire de mon père",
+        "author": "Marcel Pagnol",
+        "genre": "Biographie",
+        "cover": "data/assests/image/gloire-pere.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Château de ma mère",
+        "author": "Marcel Pagnol",
+        "genre": "Biographie",
+        "cover": "data/assests/image/chateau-mere.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Temps des secrets",
+        "author": "Marcel Pagnol",
+        "genre": "Biographie",
+        "cover": "data/assests/image/temps-secrets.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Temps des amours",
+        "author": "Marcel Pagnol",
+        "genre": "Biographie",
+        "cover": "data/assests/image/temps-amours.jpg",
+        "rating": 4
+    },
+    {
+        "title": "L'Art de la guerre",
+        "author": "Sun Tzu",
+        "genre": "Philosophie",
+        "cover": "data/assests/image/art-guerre.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Prince",
+        "author": "Nicolas Machiavel",
+        "genre": "Philosophie",
+        "cover": "data/assests/image/prince.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Discours de la méthode",
+        "author": "René Descartes",
+        "genre": "Philosophie",
+        "cover": "data/assests/image/discours-methode.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Candide",
+        "author": "Voltaire",
+        "genre": "Littérature",
+        "cover": "data/assests/image/candide.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Zadig",
+        "author": "Voltaire",
+        "genre": "Littérature",
+        "cover": "data/assests/image/zadig.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Lettres persanes",
+        "author": "Montesquieu",
+        "genre": "Littérature",
+        "cover": "data/assests/image/lettres-persanes.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Liaisons dangereuses",
+        "author": "Pierre Choderlos de Laclos",
+        "genre": "Littérature",
+        "cover": "data/assests/image/liaisons-dangereuses.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Manon Lescaut",
+        "author": "Abbé Prévost",
+        "genre": "Littérature",
+        "cover": "data/assests/image/manon-lescaut.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Fables",
+        "author": "Jean de La Fontaine",
+        "genre": "Littérature",
+        "cover": "data/assests/image/fables.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Les Contes",
+        "author": "Charles Perrault",
+        "genre": "Littérature",
+        "cover": "data/assests/image/contes-perrault.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Contes de Grimm",
+        "author": "Frères Grimm",
+        "genre": "Littérature",
+        "cover": "data/assests/image/contes-grimm.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Contes d'Andersen",
+        "author": "Hans Christian Andersen",
+        "genre": "Littérature",
+        "cover": "data/assests/image/contes-andersen.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Mille et Une Nuits",
+        "author": "Anonyme",
+        "genre": "Littérature",
+        "cover": "data/assests/image/mille-nuits.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Odyssée",
+        "author": "Homère",
+        "genre": "Littérature",
+        "cover": "data/assests/image/odyssee.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Iliade",
+        "author": "Homère",
+        "genre": "Littérature",
+        "cover": "data/assests/image/iliade.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Énéide",
+        "author": "Virgile",
+        "genre": "Littérature",
+        "cover": "data/assests/image/eneide.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Métamorphoses",
+        "author": "Ovide",
+        "genre": "Littérature",
+        "cover": "data/assests/image/metamorphoses-ovide.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Antigone",
+        "author": "Sophocle",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/antigone.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Œdipe roi",
+        "author": "Sophocle",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/oedipe-roi.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Médée",
+        "author": "Euripide",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/medee.jpg",
+        "rating": 4
+    },
+    {
+        "title": "L'Orestie",
+        "author": "Eschyle",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/orestie.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Perses",
+        "author": "Eschyle",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/perses.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Prométhée enchaîné",
+        "author": "Eschyle",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/promethee.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Bacchantes",
+        "author": "Euripide",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/bacchantes.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Électre",
+        "author": "Euripide",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/electre.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Hippolyte",
+        "author": "Euripide",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/hippolyte.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Troyennes",
+        "author": "Euripide",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/troyennes.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Andromaque",
+        "author": "Jean Racine",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/andromaque.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Phèdre",
+        "author": "Jean Racine",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/phedre.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Britannicus",
+        "author": "Jean Racine",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/britannicus.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Bérénice",
+        "author": "Jean Racine",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/berenice.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Iphigénie",
+        "author": "Jean Racine",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/iphigenie.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Athalie",
+        "author": "Jean Racine",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/athalie.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Cid",
+        "author": "Pierre Corneille",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/cid.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Horace",
+        "author": "Pierre Corneille",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/horace.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Cinna",
+        "author": "Pierre Corneille",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/cinna.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Polyeucte",
+        "author": "Pierre Corneille",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/polyeucte.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Misanthrope",
+        "author": "Molière",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/misanthrope.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Tartuffe",
+        "author": "Molière",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/tartuffe.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Dom Juan",
+        "author": "Molière",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/dom-juan.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Avare",
+        "author": "Molière",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/avare.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Le Bourgeois gentilhomme",
+        "author": "Molière",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/bourgeois-gentilhomme.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Fourberies de Scapin",
+        "author": "Molière",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/fourberies-scapin.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Précieuses ridicules",
+        "author": "Molière",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/precieuses-ridicules.jpg",
+        "rating": 4
+    },
+    {
+        "title": "L'École des femmes",
+        "author": "Molière",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/ecole-femmes.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Médecin malgré lui",
+        "author": "Molière",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/medecin-malgre-lui.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Amphitryon",
+        "author": "Molière",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/amphitryon.jpg",
+        "rating": 4
+    },
+    {
+        "title": "George Dandin",
+        "author": "Molière",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/george-dandin.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Malade imaginaire",
+        "author": "Molière",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/malade-imaginaire.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Les Femmes savantes",
+        "author": "Molière",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/femmes-savantes.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Cyrano de Bergerac",
+        "author": "Edmond Rostand",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/cyrano.jpg",
+        "rating": 5
+    },
+    {
+        "title": "L'Aiglon",
+        "author": "Edmond Rostand",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/aiglon.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Chantecler",
+        "author": "Edmond Rostand",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/chantecler.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Ruy Blas",
+        "author": "Victor Hugo",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/ruy-blas.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Hernani",
+        "author": "Victor Hugo",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/hernani.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Lorenzaccio",
+        "author": "Alfred de Musset",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/lorenzaccio.jpg",
+        "rating": 4
+    },
+    {
+        "title": "On ne badine pas avec l'amour",
+        "author": "Alfred de Musset",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/badine-amour.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Les Caprices de Marianne",
+        "author": "Alfred de Musset",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/caprices-marianne.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Fantasio",
+        "author": "Alfred de Musset",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/fantasio.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Il ne faut jurer de rien",
+        "author": "Alfred de Musset",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/jurer-rien.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Un caprice",
+        "author": "Alfred de Musset",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/caprice.jpg",
+        "rating": 4
+    },
+    {
+        "title": "La Nuit vénitienne",
+        "author": "Alfred de Musset",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/nuit-venitienne.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Le Chandelier",
+        "author": "Alfred de Musset",
+        "genre": "Théâtre",
+        "cover": "data/assests/image/chandelier.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Carmen",
+        "author": "Prosper Mérimée",
+        "genre": "Littérature",
+        "cover": "data/assests/image/carmen.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Colomba",
+        "author": "Prosper Mérimée",
+        "genre": "Littérature",
+        "cover": "data/assests/image/colomba.jpg",
+        "rating": 4
+    },
+    {
+        "title": "La Vénus d'Ille",
+        "author": "Prosper Mérimée",
+        "genre": "Littérature",
+        "cover": "data/assests/image/venus-ille.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Salammbô",
+        "author": "Gustave Flaubert",
+        "genre": "Historique",
+        "cover": "data/assests/image/salammbo.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Bouvard et Pécuchet",
+        "author": "Gustave Flaubert",
+        "genre": "Littérature",
+        "cover": "data/assests/image/bouvard-pecuchet.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Trois Contes",
+        "author": "Gustave Flaubert",
+        "genre": "Littérature",
+        "cover": "data/assests/image/trois-contes.jpg",
+        "rating": 4
+    },
+    {
+        "title": "La Tentation de saint Antoine",
+        "author": "Gustave Flaubert",
+        "genre": "Littérature",
+        "cover": "data/assests/image/tentation-antoine.jpg",
+        "rating": 3
+    },
+    {
+        "title": "Le Rouge et le Noir",
+        "author": "Stendhal",
+        "genre": "Littérature",
+        "cover": "data/assests/image/rouge-noir.jpg",
+        "rating": 5
+    },
+    {
+        "title": "Armance",
+        "author": "Stendhal",
+        "genre": "Littérature",
+        "cover": "data/assests/image/armance.jpg",
+        "rating": 3
+    },
+    {
+        "title": "Lucien Leuwen",
+        "author": "Stendhal",
+        "genre": "Littérature",
+        "cover": "data/assests/image/lucien-leuwen.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Lamiel",
+        "author": "Stendhal",
+        "genre": "Littérature",
+        "cover": "data/assests/image/lamiel.jpg",
+        "rating": 3
+    },
+    {
+        "title": "Vie de Henry Brulard",
+        "author": "Stendhal",
+        "genre": "Biographie",
+        "cover": "data/assests/image/henry-brulard.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Souvenirs d'égotisme",
+        "author": "Stendhal",
+        "genre": "Biographie",
+        "cover": "data/assests/image/souvenirs-egotisme.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Mémoires d'un touriste",
+        "author": "Stendhal",
+        "genre": "Littérature",
+        "cover": "data/assests/image/memoires-touriste.jpg",
+        "rating": 3
+    },
+    {
+        "title": "Promenades dans Rome",
+        "author": "Stendhal",
+        "genre": "Littérature",
+        "cover": "data/assests/image/promenades-rome.jpg",
+        "rating": 3
+    },
+    {
+        "title": "Rome, Naples et Florence",
+        "author": "Stendhal",
+        "genre": "Littérature",
+        "cover": "data/assests/image/rome-naples-florence.jpg",
+        "rating": 3
+    },
+    {
+        "title": "De l'amour",
+        "author": "Stendhal",
+        "genre": "Philosophie",
+        "cover": "data/assests/image/amour-stendhal.jpg",
+        "rating": 4
+    },
+    {
+        "title": "Racine et Shakespeare",
+        "author": "Stendhal",
+        "genre": "Littérature",
+        "cover": "data/assests/image/racine-shakespeare.jpg",
+        "rating": 3
+    },
+    {
+        "title": "Histoire de la peinture en Italie",
+        "author": "Stendhal",
+        "genre": "Art",
+        "cover": "data/assests/image/peinture-italie.jpg",
+        "rating": 3
+    },
+    {
+        "title": "Vies de Haydn, de Mozart et de Métastase",
+        "author": "Stendhal",
+        "genre": "Biographie",
+        "cover": "data/assests/image/haydn-mozart.jpg",
+        "rating": 3
+    },
+    {
+        "title": "Vie de Rossini",
+        "author": "Stendhal",
+        "genre": "Biographie",
+        "cover": "data/assests/image/rossini.jpg",
+        "rating": 3
+    }
+]

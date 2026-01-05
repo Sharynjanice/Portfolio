@@ -1,0 +1,114 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #ffffff;
+    color: #111;
+    scroll-behavior: smooth;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    line-height: 1.6;
+}
+
+/* Dark Mode */
+body.dark {
+    background: #0f0f0f;
+    color: #e0e0e0;
+}
+
+/* ================= HEADER ================= */
+.header {
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #eee;
+    transition: all 0.3s ease;
+}
+
+.header.scrolled {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+body.dark .header {
+    background: rgba(26, 26, 26, 0.95);
+    border-bottom-color: #333;
+}
+
+body.dark .header.scrolled {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+    text-decoration: none;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.logo-mark {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.logo-text {
+    font-size: 18px;
+}
+
+body.dark .logo {
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav a {
+    margin: 0 10px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+body.dark .nav a {
+    color: #e0e0e0;
+}
+
+.nav a:hover {
+    color: #ff5a5f;
+    background: rgba(255, 90, 95, 0.1);
+}
+
+.nav a:active {
+    transform: scale(0.98);
+}
+
+/* Hero styles are now in sections.css */
+
+/* Section styles are now in sections.css */
+
+/* Footer styles are now in sections.css */

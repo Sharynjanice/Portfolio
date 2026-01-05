@@ -1,0 +1,381 @@
+/* ================= RESPONSIVE DESIGN ================= */
+
+/* Tablettes et petits écrans */
+@media (max-width: 1024px) {
+    .header {
+        padding: 20px 30px;
+    }
+
+    .hero {
+        padding: 100px 30px 50px;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .hero-visual {
+        order: -1;
+    }
+
+    .code-window {
+        max-width: 100%;
+    }
+
+    .section {
+        padding: 100px 30px;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 24px;
+    }
+
+    .library-grid {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        gap: 20px;
+    }
+
+    .cv-download-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 36px;
+    }
+}
+
+/* Tablettes */
+@media (max-width: 768px) {
+    /* Header */
+    .header {
+        padding: 15px 20px;
+    }
+
+    .nav {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        padding: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transform: translateY(-100%);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        z-index: 999;
+    }
+
+    .dark .nav {
+        background: #2a2a2a;
+    }
+
+    .nav.show {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav a {
+        padding: 12px 0;
+        margin: 0;
+        border-bottom: 1px solid #eee;
+        display: block;
+    }
+
+    .dark .nav a {
+        border-bottom-color: #444;
+    }
+
+    .nav a:last-child {
+        border-bottom: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header-actions {
+        gap: 10px;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 100px 20px 50px;
+        min-height: calc(100vh - 70px);
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-badge {
+        margin: 0 auto 24px;
+    }
+
+    .hero-tech-stack {
+        justify-content: center;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-actions .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .code-content {
+        padding: 16px;
+        font-size: 12px;
+    }
+
+    /* Sections */
+    .section {
+        padding: 60px 20px;
+    }
+
+    .section-title {
+        margin-bottom: 40px;
+    }
+
+    /* Projects */
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    /* Library */
+    .library-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 16px;
+    }
+
+    /* Quiz */
+    .quiz-question {
+        padding: 20px;
+    }
+
+    .quiz-options {
+        gap: 10px;
+    }
+
+    .quiz-option {
+        padding: 12px 16px;
+        font-size: 15px;
+    }
+
+    /* Contact */
+    .contact-form {
+        width: 100%;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    /* CV Section */
+    .cv-download-card {
+        padding: 28px;
+    }
+
+    .cv-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .cv-content h2 {
+        font-size: 24px;
+    }
+
+    /* Section Headers */
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    .section-title {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+/* Mobiles */
+@media (max-width: 480px) {
+    /* Header */
+    .header {
+        padding: 12px 15px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .theme-toggle {
+        font-size: 20px;
+        width: 36px;
+        height: 36px;
+    }
+
+    .burger {
+        font-size: 24px;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 0 15px;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+
+    /* Sections */
+    .section {
+        padding: 50px 15px;
+    }
+
+    .section-title {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    /* Projects */
+    .project-content {
+        padding: 20px;
+    }
+
+    .project-content h3 {
+        font-size: 18px;
+    }
+
+    .project-links {
+        flex-direction: column;
+    }
+
+    .project-link {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Library */
+    .library-grid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 12px;
+    }
+
+    .book-cover {
+        height: 240px;
+    }
+
+    .book-info {
+        padding: 12px;
+    }
+
+    .book-title {
+        font-size: 14px;
+    }
+
+    .book-author {
+        font-size: 12px;
+    }
+
+    /* Quiz */
+    .quiz-question {
+        padding: 16px;
+        margin-bottom: 16px;
+    }
+
+    .quiz-question-text {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    .quiz-option {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .quiz-score {
+        padding: 30px 20px;
+    }
+
+    .quiz-score h3 {
+        font-size: 20px;
+    }
+
+    /* Contact */
+    .contact-intro {
+        font-size: 16px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    /* Buttons */
+    .btn {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 30px 15px;
+    }
+}
+
+/* Très petits écrans */
+@media (max-width: 360px) {
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .section-title {
+        font-size: 22px;
+    }
+
+    .library-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+
+    .book-cover {
+        height: 200px;
+    }
+}
+
+/* Empêcher le scroll du body quand le menu est ouvert */
+body.menu-open {
+    overflow: hidden;
+}
+
+/* Mode paysage sur mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+    .hero {
+        min-height: auto;
+        padding: 40px 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+}
+

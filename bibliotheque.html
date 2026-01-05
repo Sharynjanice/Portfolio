@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ma Bibliothèque — Découvrez les livres qui m'inspirent">
+    <meta name="author" content="Sharyn Foka">
+    <title>Ma Bibliothèque — Sharyn Foka</title>
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/sections.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/library-page.css">
+</head>
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+<header class="header" role="banner">
+    <div class="logo"><a href="index.html" style="text-decoration: none; color: inherit;">Sharyn<span>.</span></a></div>
+
+    <nav class="nav" id="navLinks" role="navigation" aria-label="Navigation principale">
+        <a href="index.html#hero" aria-label="Aller à l'accueil">Accueil</a>
+        <a href="index.html#cv-download" aria-label="Télécharger le CV">CV</a>
+        <a href="index.html#projects" aria-label="Voir les projets">Projets</a>
+        <a href="bibliotheque.html" aria-label="Voir la bibliothèque" class="active">Bibliothèque</a>
+        <a href="quiz.html" aria-label="Jouer au quiz">Quiz</a>
+        <a href="index.html#mode" aria-label="Voir la mode">Mode</a>
+        <a href="index.html#contact" aria-label="Me contacter">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Basculer entre le thème clair et sombre" title="Changer le thème">
+            <span class="theme-icon">🌙</span>
+        </button>
+        <button class="burger" id="burger" aria-label="Ouvrir le menu mobile" aria-expanded="false">
+            <span class="burger-icon">☰</span>
+        </button>
+    </div>
+</header>
+
+<!-- ================= BIBLIOTHÈQUE ================= -->
+<section class="library-page-section">
+    <div class="container">
+        <div class="library-header">
+            <h1 class="library-page-title">
+                <span class="library-emoji">📚</span>
+                Ma Bibliothèque
+            </h1>
+            <p class="library-page-subtitle">Découvrez les livres qui m'inspirent et me passionnent</p>
+        </div>
+
+        <div class="library-controls">
+            <div class="search-box">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="search-icon">
+                    <path d="M17.5 17.5L12.5 12.5M14.1667 8.33333C14.1667 11.555 11.555 14.1667 8.33333 14.1667C5.11167 14.1667 2.5 11.555 2.5 8.33333C2.5 5.11167 5.11167 2.5 8.33333 2.5C11.555 2.5 14.1667 5.11167 14.1667 8.33333Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <input type="text" id="searchInput" placeholder="Rechercher un livre ou un auteur..." aria-label="Rechercher">
+            </div>
+            
+            <div class="filter-buttons" id="filterButtons">
+                <button class="filter-btn active" data-genre="all">Tous</button>
+                <!-- Les filtres seront générés dynamiquement -->
+            </div>
+        </div>
+
+        <div class="library-stats" id="libraryStats">
+            <span id="booksCount">0</span> livre(s) trouvé(s)
+        </div>
+
+        <div id="books-container" class="library-grid" role="list">
+            <div class="loading" id="books-loading">Chargement de la bibliothèque...</div>
+        </div>
+
+        <div id="no-results" class="no-results" style="display: none;">
+            <div class="no-results-icon">📖</div>
+            <p>Aucun livre trouvé</p>
+            <small>Essayez de modifier vos critères de recherche</small>
+        </div>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer" role="contentinfo">
+    <div class="container">
+        <p>© 2025 — Portfolio créé par Sharyn Foka</p>
+    </div>
+</footer>
+
+<!-- ================= JS ================= -->
+<script src="scripts/main.js"></script>
+<script src="scripts/navbar.js"></script>
+<script src="scripts/darkmode.js"></script>
+<script src="scripts/library-page.js"></script>
+
+</body>
+</html>
+

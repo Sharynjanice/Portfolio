@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quiz Tech Fun — Testez vos connaissances en développement et technologie">
+    <meta name="author" content="Sharyn Foka">
+    <title>Quiz Tech Fun — Sharyn Foka</title>
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/sections.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/quiz-page.css">
+</head>
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+<header class="header" role="banner">
+    <div class="logo"><a href="index.html" style="text-decoration: none; color: inherit;">Sharyn<span>.</span></a></div>
+
+    <nav class="nav" id="navLinks" role="navigation" aria-label="Navigation principale">
+        <a href="index.html#hero" aria-label="Aller à l'accueil">Accueil</a>
+        <a href="index.html#cv-download" aria-label="Télécharger le CV">CV</a>
+        <a href="index.html#projects" aria-label="Voir les projets">Projets</a>
+        <a href="bibliotheque.html" aria-label="Voir la bibliothèque">Bibliothèque</a>
+        <a href="quiz.html" aria-label="Jouer au quiz" class="active">Quiz</a>
+        <a href="index.html#mode" aria-label="Voir la mode">Mode</a>
+        <a href="index.html#contact" aria-label="Me contacter">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Basculer entre le thème clair et sombre" title="Changer le thème">
+            <span class="theme-icon">🌙</span>
+        </button>
+        <button class="burger" id="burger" aria-label="Ouvrir le menu mobile" aria-expanded="false">
+            <span class="burger-icon">☰</span>
+        </button>
+    </div>
+</header>
+
+<!-- ================= QUIZ ================= -->
+<section class="quiz-page-section">
+    <div class="container">
+        <div class="quiz-header">
+            <h1 class="quiz-page-title">
+                <span class="quiz-emoji">💻</span>
+                Quiz Tech Fun
+            </h1>
+            <p class="quiz-page-subtitle">Testez vos connaissances en développement et technologie ! Répondez librement aux questions.</p>
+        </div>
+
+        <div class="quiz-progress">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <span class="progress-text" id="progressText">Question <span id="currentQuestion">0</span> / <span id="totalQuestions">0</span></span>
+        </div>
+
+        <form id="quizForm" class="quiz-form">
+            <div id="quiz-container" class="quiz-container">
+                <!-- Les questions seront générées ici -->
+            </div>
+
+            <div class="quiz-actions">
+                <button type="button" id="prevBtn" class="btn btn-secondary" style="display: none;">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M12.5 5L7.5 10L12.5 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Précédent
+                </button>
+                <button type="button" id="nextBtn" class="btn btn-primary">
+                    Suivant
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <button type="submit" id="submitBtn" class="btn btn-primary" style="display: none;">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M17.5 2.5L7.5 12.5L2.5 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Envoyer mes réponses
+                </button>
+            </div>
+        </form>
+
+        <div id="quiz-result" class="quiz-result" style="display: none;">
+            <div class="result-content">
+                <div class="result-icon">🎉</div>
+                <h2>Merci d'avoir participé !</h2>
+                <p>Vos réponses ont été enregistrées. C'était fun, non ? 😊</p>
+                <div class="result-actions">
+                    <a href="quiz.html" class="btn btn-primary">Recommencer</a>
+                    <a href="index.html" class="btn btn-secondary">Retour au portfolio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer" role="contentinfo">
+    <div class="container">
+        <p>© 2025 — Portfolio créé par Sharyn Foka</p>
+    </div>
+</footer>
+
+<!-- ================= JS ================= -->
+<script src="scripts/main.js"></script>
+<script src="scripts/navbar.js"></script>
+<script src="scripts/darkmode.js"></script>
+<script src="scripts/quiz-page.js"></script>
+
+</body>
+</html>
+

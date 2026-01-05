@@ -1,0 +1,15 @@
+[
+    {
+        "src": "data/assests/mode/Afro.png",
+        "alt": "Portrait afro en buste, cheveux naturels mis en avant sur fond clair"
+    },
+    {
+        "src": "data/assests/mode/hard-sunlight.png",
+        "alt": "Portrait en lumière dure avec forts contrastes et ombres marquées"
+    },
+    {
+        "src": "data/assests/mode/human-sunlight.png",
+        "alt": "Silhouette humaine baignée de soleil avec lumière chaude et arrière-plan lumineux"
+    }
+]
+

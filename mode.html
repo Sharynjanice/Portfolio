@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mode & Style — Ma passion pour la mode et la photographie esthétique">
+    <meta name="author" content="Sharyn Foka">
+    <title>Mode & Style — Sharyn Foka</title>
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/sections.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/mode-page.css">
+</head>
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+<header class="header" role="banner">
+    <a href="index.html#hero" class="logo" aria-label="Retour à l'accueil">
+        <img src="data/assests/logo-sharyn.png" alt="Logo Sharyn" class="logo-mark">
+        <span class="logo-text">SHARYN</span>
+    </a>
+
+    <nav class="nav" id="navLinks" role="navigation" aria-label="Navigation principale">
+        <a href="index.html#hero" aria-label="Aller à l'accueil">Accueil</a>
+        <a href="index.html#cv-download" aria-label="Télécharger le CV">CV</a>
+        <a href="index.html#projects" aria-label="Voir les projets">Projets</a>
+        <a href="bibliotheque.html" aria-label="Voir la bibliothèque">Bibliothèque</a>
+        <a href="quiz.html" aria-label="Jouer au quiz">Quiz</a>
+        <a href="mode.html" aria-label="Voir la mode" class="active">Mode</a>
+        <a href="index.html#contact" aria-label="Me contacter">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Basculer entre le thème clair et sombre" title="Changer le thème">
+            <span class="theme-icon">🌙</span>
+        </button>
+        <button class="burger" id="burger" aria-label="Ouvrir le menu mobile" aria-expanded="false">
+            <span class="burger-icon">☰</span>
+        </button>
+    </div>
+</header>
+
+<!-- ================= MODE PAGE ================= -->
+<section class="mode-page-section">
+    <div class="container">
+        <div class="mode-hero">
+            <div class="mode-hero-text">
+                <p class="mode-eyebrow">ÉDITORIAL</p>
+                <h1 class="mode-page-title">Formes, lumière, matière.</h1>
+                <p class="mode-page-subtitle">
+                    Sélection resserrée de shoots récents : silhouettes calmes, couleurs tenues, textures nettes.
+                </p>
+            </div>
+            <div class="mode-hero-meta">
+                <div class="mode-chip mode-chip-outline" id="sessionLiveChip">
+                    <span id="sessionLiveText">SESSION LIVE</span>
+                    <span id="sessionLiveDate" style="display: none; margin-left: 8px; font-size: 0.85em; opacity: 0.8;"></span>
+                </div>
+                <button class="mode-chip mode-chip-outline mode-chip-interactive" id="scrollTapBtn" type="button" aria-label="Aide navigation">
+                    SCROLL & TAP
+                </button>
+            </div>
+        </div>
+
+        <div class="mode-panel">
+            <div class="mode-stats" id="mode-stats">
+                <!-- stats injectées en JS -->
+            </div>
+            <div class="mode-controls">
+                <div class="mode-filters" id="mode-filters" role="list">
+                    <!-- filtres injectés -->
+                </div>
+                <div class="mode-actions">
+                    <button class="mode-btn ghost" id="shuffleBtn" type="button" aria-label="Mélanger les photos">Shuffle</button>
+                    <button class="mode-btn" id="resetFiltersBtn" type="button" aria-label="Réinitialiser les filtres">Réinitialiser</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mode-gallery" id="mode-gallery" role="list">
+            <!-- Les photos seront chargées ici depuis mode.json -->
+            <div class="loading" id="mode-loading">Chargement des photos...</div>
+        </div>
+
+        <div id="no-photos" class="no-photos" style="display: none;">
+            <div class="no-photos-icon">📸</div>
+            <p>Aucune photo disponible pour le moment.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Lightbox / viewer -->
+<div class="mode-lightbox" id="modeLightbox" aria-hidden="true" role="dialog">
+    <div class="mode-lightbox__backdrop" id="modeLightboxBackdrop"></div>
+    <div class="mode-lightbox__content">
+        <button class="mode-lightbox__close" id="modeLightboxClose" aria-label="Fermer la photo">×</button>
+        <div class="mode-lightbox__img-wrap">
+            <img id="modeLightboxImg" alt="">
+            <div class="mode-lightbox__meta">
+                <span id="modeLightboxCategory" class="mode-chip mode-chip-outline"></span>
+                <h3 id="modeLightboxTitle"></h3>
+                <p id="modeLightboxAlt"></p>
+                <div class="mode-lightbox__progress">
+                    <span id="modeLightboxIndex"></span>
+                </div>
+            </div>
+        </div>
+        <div class="mode-lightbox__actions">
+            <button class="mode-btn ghost" id="prevPhoto" aria-label="Photo précédente">←</button>
+            <button class="mode-btn ghost" id="nextPhoto" aria-label="Photo suivante">→</button>
+        </div>
+    </div>
+</div>
+
+<!-- Help Modal -->
+<div class="mode-help-modal" id="modeHelpModal" aria-hidden="true" role="dialog">
+    <div class="mode-help-modal__backdrop" id="modeHelpModalBackdrop"></div>
+    <div class="mode-help-modal__content">
+        <button class="mode-help-modal__close" id="modeHelpModalClose" aria-label="Fermer l'aide">×</button>
+        <h3>Navigation</h3>
+        <div class="mode-help-modal__instructions">
+            <div class="mode-help-instruction">
+                <strong>Scroll</strong>
+                <p>Faites défiler la page pour parcourir la galerie</p>
+            </div>
+            <div class="mode-help-instruction">
+                <strong>Tap / Clic</strong>
+                <p>Cliquez sur une photo pour l'agrandir dans le viewer</p>
+            </div>
+            <div class="mode-help-instruction">
+                <strong>Filtres</strong>
+                <p>Utilisez les filtres pour trier par catégorie</p>
+            </div>
+            <div class="mode-help-instruction">
+                <strong>Clavier</strong>
+                <p>Dans le viewer : ← → pour naviguer, Échap pour fermer</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer" role="contentinfo">
+    <div class="container">
+        <p>© 2025 — Portfolio créé par Sharyn Foka</p>
+    </div>
+</footer>
+
+<!-- ================= JS ================= -->
+<script src="scripts/main.js"></script>
+<script src="scripts/navbar.js"></script>
+<script src="scripts/darkmode.js"></script>
+<script src="scripts/mode-page.js"></script>
+
+</body>
+</html>
+

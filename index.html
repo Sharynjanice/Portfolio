@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Sharyn Foka — Étudiante en informatique passionnée par le développement, la cybersécurité et la lecture">
+    <meta name="author" content="Sharyn Foka">
+    <title>Portfolio — Sharyn Foka</title>
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/sections.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+<header class="header" role="banner">
+    <a href="index.html#hero" class="logo" aria-label="Retour à l'accueil">
+        <img src="data/assests/logo-sharyn.png" alt="Logo Sharyn" class="logo-mark">
+        <span class="logo-text">SHARYN</span>
+    </a>
+
+    <nav class="nav" id="navLinks" role="navigation" aria-label="Navigation principale">
+        <a href="index.html#hero" aria-label="Aller à l'accueil">Accueil</a>
+        <a href="index.html#cv-download" aria-label="Télécharger le CV">CV</a>
+        <a href="index.html#projects" aria-label="Voir les projets">Projets</a>
+        <a href="bibliotheque.html" aria-label="Voir la bibliothèque">Bibliothèque</a>
+        <a href="quiz.html" aria-label="Jouer au quiz">Quiz</a>
+        <a href="mode.html" aria-label="Voir la mode">Mode</a>
+        <a href="index.html#contact" aria-label="Me contacter">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Basculer entre le thème clair et sombre" title="Changer le thème">
+            <span class="theme-icon">🌙</span>
+        </button>
+        <button class="burger" id="burger" aria-label="Ouvrir le menu mobile" aria-expanded="false">
+            <span class="burger-icon">☰</span>
+        </button>
+    </div>
+</header>
+
+
+<!-- ================= HERO ================= -->
+<section id="hero" class="hero" role="main">
+    <div class="hero-background">
+        <div class="tech-grid"></div>
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+    </div>
+    <div class="hero-content">
+        <div class="hero-text">
+            <div class="hero-badge">
+                <span class="pulse-dot"></span>
+                <span>Disponible</span>
+            </div>
+            <h1>
+                <span class="gradient-text">Salut, moi c'est</span>
+                <br>
+                <span>Sharyn</span>
+            </h1>
+            <p class="hero-subtitle">
+                <span class="typing-text">Étudiante en informatique – 2ᵉ année développement</span>
+                <br>
+                Passionnée par le <span class="highlight">développement web</span>, la <span class="highlight">cybersécurité</span>, la <span class="highlight">lecture</span> 📚 et la <span class="highlight">mode</span> 👗
+                <br>
+                <span style="font-size: 0.9em; color: #888; margin-top: 8px; display: block;">Recherche stage 2 à 6 mois</span>
+            </p>
+            <div class="hero-tech-stack">
+                <span class="tech-icon">💻</span>
+                <span class="tech-icon">🔒</span>
+                <span class="tech-icon">📚</span>
+                <span class="tech-icon">👗</span>
+            </div>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">
+                    <span>Voir mes projets</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="data/assests/cv-sharyn-foka.pdf" class="btn btn-secondary" download>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M17.5 12.5V15.8333C17.5 16.2754 17.3244 16.6993 17.0118 17.0118C16.6993 17.3244 16.2754 17.5 15.8333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V12.5M13.3333 8.33333L10 11.6667M10 11.6667L6.66667 8.33333M10 11.6667V2.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>Télécharger CV</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="code-window">
+                <div class="code-header">
+                    <span class="code-dot red"></span>
+                    <span class="code-dot yellow"></span>
+                    <span class="code-dot green"></span>
+                </div>
+                <div class="code-content">
+                    <div class="code-line"><span class="code-keyword">const</span> <span class="code-var">sharyn</span> = {</div>
+                    <div class="code-line">  <span class="code-prop">role</span>: <span class="code-string">'Developer'</span>,</div>
+                    <div class="code-line">  <span class="code-prop">education</span>: <span class="code-string">'IPI Toulouse'</span>,</div>
+                    <div class="code-line">  <span class="code-prop">year</span>: <span class="code-number">2</span>,</div>
+                    <div class="code-line">  <span class="code-prop">skills</span>: [</div>
+                    <div class="code-line">    <span class="code-string">'JavaScript'</span>,</div>
+                    <div class="code-line">    <span class="code-string">'HTML/CSS'</span>,</div>
+                    <div class="code-line">    <span class="code-string">'WordPress'</span>,</div>
+                    <div class="code-line">    <span class="code-string">'Python'</span>,</div>
+                    <div class="code-line">    <span class="code-string">'C'</span></div>
+                    <div class="code-line">  ],</div>
+                    <div class="code-line">  <span class="code-prop">lookingFor</span>: <span class="code-string">'Stage 2-6 mois'</span></div>
+                    <div class="code-line">};</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= CV DOWNLOAD ================= -->
+<section id="cv-download" class="section cv-section" aria-labelledby="cv-title">
+    <div class="container">
+        <div class="cv-download-card">
+            <div class="cv-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                    <path d="M14 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V20C4 20.5304 4.21071 21.0391 4.58579 21.4142C4.96086 21.7893 5.46957 22 6 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V8L14 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14 2V8H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 13H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 17H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10 9H9H8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="cv-content">
+                <h2 id="cv-title">Mon Curriculum Vitae</h2>
+                <p>Téléchargez mon CV pour en savoir plus sur mon parcours, mes compétences et mon expérience professionnelle.</p>
+                <a href="data/assests/cv-sharyn-foka.pdf" class="btn btn-primary btn-cv" download id="cv-download-btn">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M17.5 12.5V15.8333C17.5 16.2754 17.3244 16.6993 17.0118 17.0118C16.6993 17.3244 16.2754 17.5 15.8333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V12.5M13.3333 8.33333L10 11.6667M10 11.6667L6.66667 8.33333M10 11.6667V2.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>Télécharger CV (PDF)</span>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= PROJETS ================= -->
+<section id="projects" class="section projects-section" aria-labelledby="projects-title">
+    <div class="projects-video-background">
+        <video autoplay muted loop playsinline aria-hidden="true">
+            <source src="data/assests/projet.mp4" type="video/mp4">
+        </video>
+        <div class="projects-video-overlay"></div>
+    </div>
+    <div class="container">
+        <div class="section-header">
+            <h2 id="projects-title" class="section-title">
+                <span class="title-number">01.</span>
+                Mes Projets
+            </h2>
+            <p class="section-subtitle">Découvrez mes réalisations en développement</p>
+        </div>
+        <div class="projects-grid" id="projects-container" role="list">
+            <!-- Les projets seront générés ici avec JS -->
+            <div class="loading" id="projects-loading">Chargement des projets...</div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= COMPÉTENCES TECHNIQUES ================= -->
+<section id="skills" class="section skills-section" aria-labelledby="skills-title">
+    <div class="skills-video-background">
+        <video autoplay muted loop playsinline aria-hidden="true">
+            <source src="data/assests/competences.mp4" type="video/mp4">
+        </video>
+        <div class="skills-video-overlay"></div>
+    </div>
+    <div class="container">
+        <div class="section-header">
+            <h2 id="skills-title" class="section-title">
+                <span class="title-number">02.</span>
+                Mes Compétences Techniques
+            </h2>
+            <p class="section-subtitle">Technologies et outils que je maîtrise</p>
+        </div>
+        <div id="skills-container" class="skills-grid">
+            <!-- Les compétences seront générées ici avec JS -->
+        </div>
+    </div>
+</section>
+
+<!-- ================= MODE ================= -->
+<section id="mode" class="section mode-section" aria-labelledby="mode-title">
+    <div class="container">
+        <div class="section-header">
+            <h2 id="mode-title" class="section-title">
+                <span class="title-number">03.</span>
+                Mode & Style
+            </h2>
+            <p class="section-subtitle">Ma passion pour la mode et la photographie esthétique</p>
+        </div>
+        <div class="mode-intro">
+            <p>En dehors du développement, j'aime explorer la mode et la photographie esthétique. C'est un passe-temps créatif qui me permet de m'exprimer artistiquement et de capturer des moments uniques à travers l'objectif.</p>
+        </div>
+        <div id="mode-gallery" class="mode-gallery">
+            <!-- Les photos seront ajoutées ici -->
+            <div class="mode-placeholder">
+                <div class="mode-placeholder-icon">📸</div>
+                <p>Photos de mode à venir</p>
+            </div>
+        </div>
+        <div class="mode-actions">
+            <a href="mode.html" class="btn btn-primary">Voir toutes mes photos</a>
+            <a href="bibliotheque.html" class="btn btn-secondary">Découvrir ma bibliothèque</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section contact" aria-labelledby="contact-title">
+    <div class="container">
+        <div class="section-header">
+            <h2 id="contact-title" class="section-title">
+                <span class="title-number">04.</span>
+                Contact
+            </h2>
+            <p class="section-subtitle">N'hésitez pas à me contacter pour toute collaboration</p>
+        </div>
+        <p class="contact-intro">Pour me contacter, écrivez-moi ici :</p>
+
+        <form class="contact-form" action="https://formspree.io/f/xqazzjdo" method="POST" novalidate>
+            <div class="form-group">
+                <label for="name" class="sr-only">Votre nom</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom" required aria-required="true">
+            </div>
+            <div class="form-group">
+                <label for="email" class="sr-only">Votre email</label>
+                <input type="email" id="email" name="email" placeholder="Votre email" required aria-required="true">
+            </div>
+            <div class="form-group">
+                <label for="message" class="sr-only">Votre message</label>
+                <textarea id="message" name="message" placeholder="Votre message" rows="6" required aria-required="true"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+                <span class="btn-text">Envoyer</span>
+                <span class="btn-loader" style="display: none;">Envoi en cours...</span>
+            </button>
+            <div id="form-message" class="form-message" role="alert" aria-live="polite"></div>
+        </form>
+    </div>
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer" role="contentinfo">
+    <div class="container">
+        <p>© 2025 — Portfolio créé par Sharyn Foka</p>
+    </div>
+</footer>
+
+
+<!-- ================= CHAT WIDGET ================= -->
+<div class="chat-widget" id="chat-widget">
+    <button class="chat-toggle" id="chat-toggle" aria-label="Ouvrir le chat">
+        💬
+    </button>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h3>Chat avec moi</h3>
+            <button class="chat-close" id="chat-close" aria-label="Fermer le chat">×</button>
+        </div>
+        <div class="chat-messages" id="chat-messages"></div>
+        <div class="chat-input-container">
+            <form class="chat-form" id="chat-form">
+                <input 
+                    type="text" 
+                    class="chat-input" 
+                    id="chat-input" 
+                    placeholder="Tapez votre message..."
+                    autocomplete="off"
+                >
+                <button type="submit" class="chat-send" id="chat-send" aria-label="Envoyer le message">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M18 2L9 11M18 2L12 18L9 11M18 2L2 8L9 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- ================= JS ================= -->
+<script src="scripts/main.js"></script>
+<script src="scripts/navbar.js"></script>
+<script src="scripts/darkmode.js"></script>
+<script src="scripts/projects.js"></script>
+<script src="scripts/skills.js"></script>
+<script src="scripts/mode-gallery.js"></script>
+<script src="scripts/contacts.js"></script>
+<script src="scripts/chatbox.js"></script>
+
+</body>
+</html>
