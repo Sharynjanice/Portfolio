@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="styles/components.css">
     <link rel="stylesheet" href="styles/sections.css">
     <link rel="stylesheet" href="styles/responsive.css">
-    <link rel="stylesheet" href="styles/mode-page.css">
 </head>
 <body>
 
@@ -36,7 +35,6 @@
         <a href="index.html#projects" aria-label="Voir les projets">Projets</a>
         <a href="bibliotheque.html" aria-label="Voir la bibliothèque">Bibliothèque</a>
         <a href="quiz.html" aria-label="Jouer au quiz">Quiz</a>
-        <a href="mode.html" aria-label="Voir la mode" class="active">Mode</a>
         <a href="index.html#contact" aria-label="Me contacter">Contact</a>
     </nav>
 
@@ -51,76 +49,22 @@
 </header>
 
 <!-- ================= MODE PAGE ================= -->
-<section class="mode-page-section">
+<section class="section" style="min-height: 100vh; padding-top: 120px;">
     <div class="container">
-        <div class="mode-hero">
-            <div class="mode-hero-text">
-                <p class="mode-eyebrow">ÉDITORIAL</p>
-                <h1 class="mode-page-title">Formes, lumière, matière.</h1>
-                <p class="mode-page-subtitle">
-                    Sélection resserrée de shoots récents : silhouettes calmes, couleurs tenues, textures nettes.
-                </p>
-            </div>
-            <div class="mode-hero-meta">
-                <div class="mode-chip mode-chip-outline" id="sessionLiveChip">
-                    <span id="sessionLiveText">SESSION LIVE</span>
-                    <span id="sessionLiveDate" style="display: none; margin-left: 8px; font-size: 0.85em; opacity: 0.8;"></span>
-                </div>
-                <button class="mode-chip mode-chip-outline mode-chip-interactive" id="scrollTapBtn" type="button" aria-label="Aide navigation">
-                    SCROLL & TAP
-                </button>
-            </div>
+        <div class="section-header">
+            <h1 class="section-title">
+                <span class="title-number">03.</span>
+                Mode & Style
+            </h1>
+            <p class="section-subtitle">
+                Cette page parlait de mes photos de mode. Je l'ai simplifiée pour me concentrer sur mes projets et compétences techniques.
+            </p>
         </div>
-
-        <div class="mode-panel">
-            <div class="mode-stats" id="mode-stats">
-                <!-- stats injectées en JS -->
-            </div>
-            <div class="mode-controls">
-                <div class="mode-filters" id="mode-filters" role="list">
-                    <!-- filtres injectés -->
-                </div>
-                <div class="mode-actions">
-                    <button class="mode-btn ghost" id="shuffleBtn" type="button" aria-label="Mélanger les photos">Shuffle</button>
-                    <button class="mode-btn" id="resetFiltersBtn" type="button" aria-label="Réinitialiser les filtres">Réinitialiser</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="mode-gallery" id="mode-gallery" role="list">
-            <!-- Les photos seront chargées ici depuis mode.json -->
-            <div class="loading" id="mode-loading">Chargement des photos...</div>
-        </div>
-
-        <div id="no-photos" class="no-photos" style="display: none;">
-            <div class="no-photos-icon">📸</div>
-            <p>Aucune photo disponible pour le moment.</p>
-        </div>
+        <p style="max-width: 700px; margin: 0 auto; text-align: center; font-size: 16px;">
+            Aujourd'hui, je garde la mode comme centre d'intérêt personnel, sans galerie de photos dans le portfolio.
+        </p>
     </div>
 </section>
-
-<!-- Lightbox / viewer -->
-<div class="mode-lightbox" id="modeLightbox" aria-hidden="true" role="dialog">
-    <div class="mode-lightbox__backdrop" id="modeLightboxBackdrop"></div>
-    <div class="mode-lightbox__content">
-        <button class="mode-lightbox__close" id="modeLightboxClose" aria-label="Fermer la photo">×</button>
-        <div class="mode-lightbox__img-wrap">
-            <img id="modeLightboxImg" alt="">
-            <div class="mode-lightbox__meta">
-                <span id="modeLightboxCategory" class="mode-chip mode-chip-outline"></span>
-                <h3 id="modeLightboxTitle"></h3>
-                <p id="modeLightboxAlt"></p>
-                <div class="mode-lightbox__progress">
-                    <span id="modeLightboxIndex"></span>
-                </div>
-            </div>
-        </div>
-        <div class="mode-lightbox__actions">
-            <button class="mode-btn ghost" id="prevPhoto" aria-label="Photo précédente">←</button>
-            <button class="mode-btn ghost" id="nextPhoto" aria-label="Photo suivante">→</button>
-        </div>
-    </div>
-</div>
 
 <!-- Help Modal -->
 <div class="mode-help-modal" id="modeHelpModal" aria-hidden="true" role="dialog">
@@ -160,7 +104,6 @@
 <script src="scripts/main.js"></script>
 <script src="scripts/navbar.js"></script>
 <script src="scripts/darkmode.js"></script>
-<script src="scripts/mode-page.js"></script>
 
 </body>
 </html>
