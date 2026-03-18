@@ -321,6 +321,12 @@
         font-size: 16px;
     }
 
+    .contact-info {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
     .contact-form input,
     .contact-form textarea {
         padding: 12px;

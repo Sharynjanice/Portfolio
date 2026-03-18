@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mode & Style — Ma passion pour la mode et la photographie esthétique">
+    <meta name="description" content="Alternance en développement — Portfolio et CV de Sharyn Foka (FR / EN)">
     <meta name="author" content="Sharyn Foka">
-    <title>Mode & Style — Sharyn Foka</title>
+    <title>Alternance — Sharyn Foka</title>
 
     <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
     <!-- CSS principal -->
     <link rel="stylesheet" href="styles/main.css">
@@ -31,7 +31,9 @@
 
     <nav class="nav" id="navLinks" role="navigation" aria-label="Navigation principale">
         <a href="index.html#hero" aria-label="Aller à l'accueil">Accueil</a>
-        <a href="index.html#cv-download" aria-label="Télécharger le CV">CV</a>
+        <a href="index.html#about" aria-label="En savoir plus sur moi">À propos</a>
+        <a href="index.html#cv-download" aria-label="Voir mes CV">CV</a>
+        <a href="mode.html" aria-label="Voir ma recherche d'alternance">Alternance</a>
         <a href="index.html#projects" aria-label="Voir les projets">Projets</a>
         <a href="bibliotheque.html" aria-label="Voir la bibliothèque">Bibliothèque</a>
         <a href="quiz.html" aria-label="Jouer au quiz">Quiz</a>
@@ -40,58 +42,67 @@
 
     <div class="header-actions">
         <button class="theme-toggle" id="themeToggle" aria-label="Basculer entre le thème clair et sombre" title="Changer le thème">
-            <span class="theme-icon">🌙</span>
+            <span class="theme-icon">MOON</span>
         </button>
         <button class="burger" id="burger" aria-label="Ouvrir le menu mobile" aria-expanded="false">
-            <span class="burger-icon">☰</span>
+            <span class="burger-icon">MENU</span>
         </button>
     </div>
 </header>
 
-<!-- ================= MODE PAGE ================= -->
+<!-- ================= ALTERNANCE PAGE ================= -->
 <section class="section" style="min-height: 100vh; padding-top: 120px;">
     <div class="container">
         <div class="section-header">
             <h1 class="section-title">
                 <span class="title-number">03.</span>
-                Mode & Style
+                Alternance & Stages
             </h1>
             <p class="section-subtitle">
-                Cette page parlait de mes photos de mode. Je l'ai simplifiée pour me concentrer sur mes projets et compétences techniques.
+                Collaboration actuelle : Collaboratrice e-commerce chez Miels & Merveilles (avril 2026). Objectif : alternance en développement à partir de septembre.
             </p>
         </div>
-        <p style="max-width: 700px; margin: 0 auto; text-align: center; font-size: 16px;">
-            Aujourd'hui, je garde la mode comme centre d'intérêt personnel, sans galerie de photos dans le portfolio.
-        </p>
+
+        <div style="max-width: 900px; margin: 0 auto; display: grid; gap: 32px;">
+            <div style="font-size: 16px; line-height: 1.6;">
+                <h2 style="font-size: 1.4rem; margin-bottom: 8px;">Français</h2>
+                <p>
+                    Actuellement en 2ᵉ année de développement à l'IPI Toulouse, je viens d'obtenir une <strong>collaboration d'un mois chez Miels & Merveilles</strong> (e-commerce de miels artisanaux) à partir du 23 avril 2026.
+                    Je recherche également <strong>une alternance en développement</strong> à partir de <strong>septembre</strong>.
+                    Je suis <strong>disponible dès juin</strong> pour commencer en amont (stage, mission courte ou prise de poste anticipée).
+                </p>
+                <p>
+                    Je suis particulièrement intéressée par des environnements où je peux :
+                    mettre en pratique mes compétences en <strong>HTML, CSS et JavaScript</strong>,
+                    participer à de vrais projets, et progresser sur de bonnes pratiques (qualité du code,
+                    accessibilité, tests, sécurité).
+                </p>
+                <a href="data/assests/mode/Alternance.pdf" class="btn btn-primary" download>
+                    Télécharger mon CV Alternance (FR)
+                </a>
+            </div>
+
+            <div style="font-size: 16px; line-height: 1.6;">
+                <h2 style="font-size: 1.4rem; margin-bottom: 8px;">English</h2>
+                <p>
+                    I am a 2nd year IT student in Toulouse (development track) who just secured a <strong>1-month collaboration at Miels & Merveilles</strong> (artisanal honey e-commerce) starting April 23, 2026.
+                    I am also looking for <strong>an apprenticeship in software development</strong> starting in <strong>September</strong>.
+                    I am <strong>available from June</strong> for an early start (internship, short mission or early onboarding).
+                </p>
+                <p>
+                    I am motivated to join a team where I can contribute with my skills in
+                    <strong>HTML, CSS and JavaScript</strong>, learn good engineering practices,
+                    and grow as a developer on real-world projects.
+                </p>
+                <a href="data/assests/mode/Apprenticeship.pdf" class="btn btn-secondary" download>
+                    Download my Apprenticeship CV (EN)
+                </a>
+            </div>
+        </div>
     </div>
 </section>
 
-<!-- Help Modal -->
-<div class="mode-help-modal" id="modeHelpModal" aria-hidden="true" role="dialog">
-    <div class="mode-help-modal__backdrop" id="modeHelpModalBackdrop"></div>
-    <div class="mode-help-modal__content">
-        <button class="mode-help-modal__close" id="modeHelpModalClose" aria-label="Fermer l'aide">×</button>
-        <h3>Navigation</h3>
-        <div class="mode-help-modal__instructions">
-            <div class="mode-help-instruction">
-                <strong>Scroll</strong>
-                <p>Faites défiler la page pour parcourir la galerie</p>
-            </div>
-            <div class="mode-help-instruction">
-                <strong>Tap / Clic</strong>
-                <p>Cliquez sur une photo pour l'agrandir dans le viewer</p>
-            </div>
-            <div class="mode-help-instruction">
-                <strong>Filtres</strong>
-                <p>Utilisez les filtres pour trier par catégorie</p>
-            </div>
-            <div class="mode-help-instruction">
-                <strong>Clavier</strong>
-                <p>Dans le viewer : ← → pour naviguer, Échap pour fermer</p>
-            </div>
-        </div>
-    </div>
-</div>
+<!-- (Ancien contenu "mode" remplacé par une page dédiée à l'alternance) -->
 
 <!-- ================= FOOTER ================= -->
 <footer class="footer" role="contentinfo">

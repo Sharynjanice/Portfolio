@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
     <!-- CSS principal -->
     <link rel="stylesheet" href="styles/main.css">
@@ -32,7 +32,9 @@
 
     <nav class="nav" id="navLinks" role="navigation" aria-label="Navigation principale">
         <a href="index.html#hero" aria-label="Aller à l'accueil">Accueil</a>
-        <a href="index.html#cv-download" aria-label="Télécharger le CV">CV</a>
+        <a href="index.html#about" aria-label="En savoir plus sur moi">À propos</a>
+        <a href="index.html#cv-download" aria-label="Voir mes CV">CV</a>
+        <a href="mode.html" aria-label="Voir ma recherche d'alternance">Alternance</a>
         <a href="index.html#projects" aria-label="Voir les projets">Projets</a>
         <a href="bibliotheque.html" aria-label="Voir la bibliothèque">Bibliothèque</a>
         <a href="quiz.html" aria-label="Jouer au quiz">Quiz</a>
@@ -41,10 +43,10 @@
 
     <div class="header-actions">
         <button class="theme-toggle" id="themeToggle" aria-label="Basculer entre le thème clair et sombre" title="Changer le thème">
-            <span class="theme-icon">🌙</span>
+            <span class="theme-icon">MOON</span>
         </button>
         <button class="burger" id="burger" aria-label="Ouvrir le menu mobile" aria-expanded="false">
-            <span class="burger-icon">☰</span>
+            <span class="burger-icon">MENU</span>
         </button>
     </div>
 </header>
@@ -71,7 +73,19 @@
             <p class="hero-subtitle">
                 <span class="typing-text">Étudiante en informatique – 2ᵉ année développement</span>
                 <br>
-                <span style="font-size: 0.9em; color: #888; margin-top: 8px; display: block;">Recherche stage 2 à 6 mois</span>
+                <span style="font-size: 0.9em; color: #888; margin-top: 8px; display: block;">
+                    À la recherche d'une alternance en développement à partir de septembre (disponible dès juin)
+                </span>
+            </p>
+            <div class="hero-tech-stack" aria-label="Technologies principales">
+                <div class="tech-icon" aria-label="JavaScript">JS</div>
+                <div class="tech-icon" aria-label="Développement web">Web</div>
+                <div class="tech-icon" aria-label="Design UI">UI</div>
+                <div class="tech-icon" aria-label="Design UX">UX</div>
+            </div>
+            <p class="hero-subtext">
+                Actuellement en stage de 2 mois en community management et création de sites web chez
+                <strong>High Level</strong> (Choisy-le-Roi, Paris) jusqu'au 1ᵉʳ mai.
             </p>
             <div class="hero-actions">
                 <a href="#projects" class="btn btn-primary">
@@ -80,11 +94,11 @@
                         <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </a>
-                <a href="data/assests/cv-sharyn-foka.pdf" class="btn btn-secondary" download>
+                <a href="#cv-download" class="btn btn-secondary">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                         <path d="M17.5 12.5V15.8333C17.5 16.2754 17.3244 16.6993 17.0118 17.0118C16.6993 17.3244 16.2754 17.5 15.8333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V12.5M13.3333 8.33333L10 11.6667M10 11.6667L6.66667 8.33333M10 11.6667V2.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
-                    <span>Télécharger CV</span>
+                    <span>Voir mes CV (FR / EN)</span>
                 </a>
             </div>
         </div>
@@ -104,10 +118,9 @@
                     <div class="code-line">    <span class="code-string">'JavaScript'</span>,</div>
                     <div class="code-line">    <span class="code-string">'HTML/CSS'</span>,</div>
                     <div class="code-line">    <span class="code-string">'WordPress'</span>,</div>
-                    <div class="code-line">    <span class="code-string">'Python'</span>,</div>
                     <div class="code-line">    <span class="code-string">'C'</span></div>
                     <div class="code-line">  ],</div>
-                    <div class="code-line">  <span class="code-prop">lookingFor</span>: <span class="code-string">'Stage 2-6 mois'</span></div>
+                    <div class="code-line">  <span class="code-prop">lookingFor</span>: <span class="code-string">'Alternance en développement (dès septembre, disponible dès juin)'</span></div>
                     <div class="code-line">};</div>
                 </div>
             </div>
@@ -115,6 +128,50 @@
     </div>
 </section>
 
+<!-- ================= ABOUT / EXPERIENCE ================= -->
+<section id="about" class="section about-section" aria-labelledby="about-title">
+    <div class="container about-layout">
+        <div class="about-photo-card">
+            <div class="about-photo-placeholder">
+                <img src="data/assests/mode/openart-e8108d69de3744f2939a511b21d83146_raw.jpg" alt="Illustration de Sharyn Foka">
+            </div>
+        </div>
+        <div class="about-content">
+            <div class="section-header section-header-left">
+                <h2 id="about-title" class="section-title">
+                    <span class="title-number">00.</span>
+                    À propos & expérience
+                </h2>
+                <p class="section-subtitle">
+                    Développeuse en formation, avec un pied dans le community management et la création de sites web.
+                </p>
+            </div>
+            <div class="about-text">
+                <p>
+                    Je m'appelle <strong>Sharyn Foka</strong>, étudiante en 2ᵉ année de développement à l'IPI Toulouse.
+                    J'aime construire des interfaces claires, modernes et accessibles, aussi bien côté <strong>front-end</strong>
+                    que sur la partie <strong>contenu</strong> et <strong>expérience utilisateur</strong>.
+                </p>
+                <p>
+                    En ce moment, je réalise un <strong>stage de 2 mois</strong> en tant que
+                    <strong>community manager</strong> et <strong>créatrice de sites web</strong> chez
+                    <strong>High Level</strong>, une entreprise basée à <strong>Choisy-le-Roi (Paris)</strong>,
+                    que je termine le <strong>1ᵉʳ mai</strong>.
+                </p>
+                <ul class="about-list">
+                    <li>Création et refonte de sites vitrine modernes pour des clients variés.</li>
+                    <li>Gestion et planification de contenus sur les réseaux sociaux.</li>
+                    <li>Collaboration avec l'équipe sur l'image de marque et la cohérence visuelle.</li>
+                </ul>
+                <p>
+                    Mon objectif : rejoindre une équipe tech en alternance où je peux contribuer sur des
+                    <strong>projets concrets</strong>, apprendre des bonnes pratiques (qualité, performance,
+                    accessibilité, sécurité) et continuer à progresser en développement web.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- ================= CV DOWNLOAD ================= -->
 <section id="cv-download" class="section cv-section" aria-labelledby="cv-title">
@@ -130,15 +187,25 @@
                 </svg>
             </div>
             <div class="cv-content">
-                <h2 id="cv-title">Mon Curriculum Vitae</h2>
-                <p>Téléchargez mon CV pour en savoir plus sur mon parcours, mes compétences et mon expérience professionnelle.</p>
-                <a href="data/assests/cv-sharyn-foka.pdf" class="btn btn-primary btn-cv" download id="cv-download-btn">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                        <path d="M17.5 12.5V15.8333C17.5 16.2754 17.3244 16.6993 17.0118 17.0118C16.6993 17.3244 16.2754 17.5 15.8333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V12.5M13.3333 8.33333L10 11.6667M10 11.6667L6.66667 8.33333M10 11.6667V2.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <span>Télécharger CV (PDF)</span>
-                </a>
-                
+                <h2 id="cv-title">Mes CV pour l'alternance</h2>
+                <p>
+                    Retrouvez ici mon CV en français et en anglais, adaptés à une recherche
+                    d'alternance en développement à partir de septembre (disponible dès juin).
+                </p>
+                <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 12px;">
+                    <a href="data/assests/mode/Alternance.pdf" class="btn btn-primary btn-cv" download>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M17.5 12.5V15.8333C17.5 16.2754 17.3244 16.6993 17.0118 17.0118C16.6993 17.3244 16.2754 17.5 15.8333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V12.5M13.3333 8.33333L10 11.6667M10 11.6667L6.66667 8.33333M10 11.6667V2.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>CV Alternance (FR)</span>
+                    </a>
+                    <a href="data/assests/mode/Apprenticeship.pdf" class="btn btn-secondary btn-cv" download>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M17.5 12.5V15.8333C17.5 16.2754 17.3244 16.6993 17.0118 17.0118C16.6993 17.3244 16.2754 17.5 15.8333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V12.5M13.3333 8.33333L10 11.6667M10 11.6667L6.66667 8.33333M10 11.6667V2.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Apprenticeship CV (EN)</span>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -199,7 +266,22 @@
             </h2>
             <p class="section-subtitle">N'hésitez pas à me contacter pour toute collaboration</p>
         </div>
-        <p class="contact-intro">Pour me contacter, écrivez-moi ici :</p>
+        <p class="contact-intro">Vous pouvez me contacter via ces moyens ou en utilisant le formulaire ci-dessous :</p>
+
+        <div class="contact-info">
+            <div class="contact-item">
+                <span class="contact-icon">MAIL</span>
+                <a href="mailto:jacesharyn@gmail.com" class="contact-link">jacesharyn@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">TEL</span>
+                <a href="tel:+33661033442" class="contact-link">+33 6 61 03 34 42</a>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">LINK</span>
+                <a href="https://www.linkedin.com/in/sharyn-foka/" target="_blank" rel="noopener noreferrer" class="contact-link">LinkedIn</a>
+            </div>
+        </div>
 
         <form class="contact-form" action="https://formspree.io/f/xqazzjdo" method="POST" novalidate>
             <div class="form-group">
@@ -235,7 +317,7 @@
 <!-- ================= CHAT WIDGET ================= -->
 <div class="chat-widget" id="chat-widget">
     <button class="chat-toggle" id="chat-toggle" aria-label="Ouvrir le chat">
-        💬
+        CHAT
     </button>
     <div class="chat-container">
         <div class="chat-header">

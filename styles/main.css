@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
     background: #ffffff;
     color: #111;
     scroll-behavior: smooth;
@@ -27,7 +27,7 @@ body.dark {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: relative;
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     top: 0;
@@ -99,8 +99,8 @@ body.dark .nav a {
 }
 
 .nav a:hover {
-    color: #ff5a5f;
-    background: rgba(255, 90, 95, 0.1);
+    color: #2563eb;
+    background: rgba(37, 99, 235, 0.08);
 }
 
 .nav a:active {

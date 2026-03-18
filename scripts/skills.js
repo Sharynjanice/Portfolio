@@ -18,20 +18,6 @@ const skills = [
         color: '#E34F26'
     },
     {
-        name: 'Python',
-        level: 45,
-        icon: '🐍',
-        category: 'Langage',
-        color: '#3776AB'
-    },
-    {
-        name: 'C',
-        level: 40,
-        icon: '⚙️',
-        category: 'Langage',
-        color: '#A8B9CC'
-    },
-    {
         name: 'WordPress',
         level: 55,
         icon: '📝',

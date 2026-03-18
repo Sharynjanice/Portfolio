@@ -40,7 +40,7 @@ contactForm?.addEventListener('submit', async (e) => {
     e.preventDefault();
     
     const formData = new FormData(contactForm);
-    const FORMSPREE_URL = 'https://formspree.io/f/xqazzjdo';
+    const FORMSPREE_URL = 'https://formspree.io/f/mqeylkea';
 
     // Validation côté client
     const name = formData.get('name')?.trim();
