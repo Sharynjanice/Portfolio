@@ -2,29 +2,29 @@
 const projectsContainer = document.getElementById('projects-container');
 const projectsLoading = document.getElementById('projects-loading');
 
-// Données des projets basées sur le CV et les réalisations récentes
+// Données des projets les plus représentatives du parcours et du niveau technique actuel
 const projects = [
     {
-        title: "Portfolio personnel — site vitrine & ressources",
-        description: "Conception et développement d'un portfolio personnel en HTML, CSS et JavaScript pour présenter mon parcours, mes compétences techniques, mes projets et mes centres d'intérêt. Le site met en avant ma présence numérique, mon profil en développement web et ma recherche d'alternance.",
-        technologies: ["HTML", "CSS", "JavaScript", "GitHub", "Responsive"],
+        title: "Portfolio personnel — site vitrine",
+        description: "Développement d'un portfolio moderne et minimaliste pour présenter mon parcours, mes compétences et mes projets dans un cadre professionnel orienté alternance et recrutement.",
+        technologies: ["HTML", "CSS", "JavaScript", "Responsive"],
         image: "data/assests/logo-sharyn.png",
         link: "index.html",
         github: "https://github.com/Sharynjanice/Portfolio",
         featured: true
     },
     {
-        title: "Collaboration avec Miels & Merveilles — Optimisation E-commerce",
-        description: "Rôle : Collaboratrice e-commerce et web design. Contexte : Optimisation du site Shopify pour une entreprise de miels artisanaux et parfums, amélioration de l'expérience utilisateur, optimisation SEO, création de visuels marketing avec Canva. Missions : structuration des fiches produits, amélioration UX, organisation des collections, analyse de performances. Résultat : Contribution à l'amélioration de la conversion et de la présentation des produits. Collaboration de 1 mois en télétravail à partir du 23 Mars 2026.",
-        technologies: ["Shopify", "Canva", "SEO", "UX/UI", "E-commerce"],
+        title: "Miels & Merveilles — optimisation e-commerce",
+        description: "Collaboration sur la refonte et l'optimisation du site e-commerce pour une marque de miels artisanaux. J’ai participé à la structuration des fiches produits, à l’amélioration de l’expérience utilisateur et à la mise en valeur des collections.",
+        technologies: ["Shopify", "UX/UI", "SEO", "Canva"],
         image: "data/assests/mode/E COMMERCE.jpg",
         link: "#",
         github: "#",
         featured: true
     },
     {
-        title: "Braids & Beauty — Site vitrine",
-        description: "Rôle : développement front complet pour un vrai client. Contexte : création d'un site vitrine moderne pour une spécialiste des coiffures africaines à Turin, avec sections services, galerie, grille de tarifs et contact. Résultat : site responsive, clair et facile à parcourir sur mobile comme sur desktop.",
+        title: "Braids & Beauty — site vitrine",
+        description: "Création d'un site vitrine moderne pour un client réel, avec sections services, galerie, tarifs et formulaire de contact. Le site a été pensé pour être clair, rapide à parcourir et adapté au mobile.",
         technologies: ["HTML", "CSS", "JavaScript", "Responsive"],
         image: "data/assests/mode/Braids.jpg",
         link: "https://braids-beauty.vercel.app/",
@@ -32,9 +32,9 @@ const projects = [
         featured: true
     },
     {
-        title: "Refonte My SelfKey — Maquette Figma",
-        description: "Rôle : UX/UI designer sur maquette haute fidélité. Contexte : refonte d'une plateforme existante (My SelfKey) pour simplifier les parcours, clarifier la hiérarchie de l'information et moderniser l'interface. Résultat : maquette Figma structurée par pages et composants réutilisables, prête pour une implémentation front-end.",
-        technologies: ["Figma", "UI/UX Design", "Wireframes"],
+        title: "Refonte My SelfKey — maquette UX/UI",
+        description: "Conception d'une maquette de refonte UX/UI pour une plateforme existante, avec une meilleure hiérarchie d'information, des parcours plus lisibles et une interface plus moderne.",
+        technologies: ["Figma", "UI/UX", "Wireframes"],
         image: "data/assests/mode/Refonte.png",
         link: "https://www.figma.com/make/b5Jg13YxQbsZTrTNJs2W9c/Refonte-My-Self-Key-%E2%80%93-Maquette?fullscreen=1&t=0juIXHYdDE006n0E-1",
         github: "https://github.com/Sharynjanice",
@@ -42,7 +42,7 @@ const projects = [
     },
     {
         title: "Bibliothèque en ligne",
-        description: "Rôle : développement front d'une mini-application. Contexte : application web permettant de rechercher et afficher des livres à partir de données structurées. Résultat : interface responsive avec liste de livres, affichage dynamique et bases pour une future intégration d'API.",
+        description: "Mini-application dédiée à la recherche et à l'affichage dynamique de livres. Le projet met en avant les bases du développement front avec JavaScript, HTML et CSS.",
         technologies: ["JavaScript", "HTML", "CSS", "JSON"],
         image: "data/assests/mode/Bibliotequejpg.jpg",
         link: "#",
@@ -50,33 +50,31 @@ const projects = [
     },
     {
         title: "Portfolio WordPress",
-        description: "Rôle : intégration et personnalisation sur WordPress. Contexte : premier site professionnel, avec page d'accueil, pages projets, blog et formulaire de contact. Résultat : portfolio `sharyn.fr` qui me permet de présenter mon parcours, mes projets et mes centres d'intérêt.",
+        description: "Premier site professionnel développé sur WordPress, avec structure de pages, personnalisation visuelle et mise en avant du parcours et des réalisations.",
         technologies: ["WordPress", "PHP", "HTML", "CSS"],
         image: "data/assests/mode/Wordpress.png",
         link: "https://sharyn.fr/",
         github: "https://github.com/Sharynjanice"
-    },
-    {
-        title: "GitHub — projets et dépôts",
-        description: "Je publie et mets à jour mes travaux sur GitHub afin de partager mes projets, mes prototypes et mes évolutions techniques. Cette page permet d'accéder rapidement à mon profil GitHub et aux réalisations qui complètent mon portfolio.",
-        technologies: ["Git", "GitHub", "Déploiement", "Collaboration"],
-        image: "data/assests/logo-sharyn.png",
-        link: "https://github.com/Sharynjanice",
-        github: "https://github.com/Sharynjanice",
-        featured: true
     }
 ];
 
-// Fonction pour créer une carte de projet
 function createProjectCard(project) {
     const card = document.createElement('article');
     card.className = 'project-card' + (project.featured ? ' project-card-featured' : '');
     card.setAttribute('role', 'listitem');
-    
-    const technologies = project.technologies.map(tech => 
-        `<span class="tech-tag">${tech}</span>`
-    ).join('');
-    
+
+    const technologies = project.technologies
+        .map((tech) => `<span class="tech-tag">${tech}</span>`)
+        .join('');
+
+    const projectLink = project.link && project.link !== '#' ? `
+        <a href="${project.link}" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Voir le projet ${project.title}">Voir le projet</a>
+    ` : '';
+
+    const githubLink = project.github && project.github !== '#' ? `
+        <a href="${project.github}" class="project-link project-link-github" target="_blank" rel="noopener noreferrer" aria-label="Code source de ${project.title} sur GitHub">GitHub</a>
+    ` : '';
+
     card.innerHTML = `
         <div class="project-image">
             <img src="${project.image}" alt="${project.title}" loading="lazy" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23ddd%22 width=%22400%22 height=%22300%22/%3E%3Ctext fill=%22%23999%22 font-family=%22sans-serif%22 font-size=%2220%22 dy=%2210.5%22 font-weight=%22bold%22 x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22%3E${encodeURIComponent(project.title)}%3C/text%3E%3C/svg%3E'">
@@ -89,37 +87,32 @@ function createProjectCard(project) {
                 ${technologies}
             </div>
             <div class="project-links">
-                ${project.link !== '#' ? `<a href="${project.link}" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Voir le projet ${project.title}">Voir le projet</a>` : ''}
-                ${project.github !== '#' ? `<a href="${project.github}" class="project-link project-link-github" target="_blank" rel="noopener noreferrer" aria-label="Code source de ${project.title} sur GitHub">GitHub</a>` : ''}
+                ${projectLink}
+                ${githubLink}
             </div>
         </div>
     `;
-    
+
     return card;
 }
 
-// Charger et afficher les projets
 function loadProjects() {
     if (!projectsContainer) return;
-    
-    // Retirer le message de chargement
+
     if (projectsLoading) {
         projectsLoading.remove();
     }
-    
-    // Afficher les projets
-    projects.forEach(project => {
+
+    projects.forEach((project) => {
         const card = createProjectCard(project);
         projectsContainer.appendChild(card);
     });
-    
-    // Si aucun projet, afficher un message
+
     if (projects.length === 0) {
         projectsContainer.innerHTML = '<p class="no-data">Aucun projet disponible pour le moment.</p>';
     }
 }
 
-// Charger au démarrage
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', loadProjects);
 } else {
