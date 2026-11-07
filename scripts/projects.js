@@ -5,6 +5,15 @@ const projectsLoading = document.getElementById('projects-loading');
 // Données des projets basées sur le CV et les réalisations récentes
 const projects = [
     {
+        title: "Portfolio personnel — site vitrine & ressources",
+        description: "Conception et développement d'un portfolio personnel en HTML, CSS et JavaScript pour présenter mon parcours, mes compétences techniques, mes projets et mes centres d'intérêt. Le site met en avant ma présence numérique, mon profil en développement web et ma recherche d'alternance.",
+        technologies: ["HTML", "CSS", "JavaScript", "GitHub", "Responsive"],
+        image: "data/assests/logo-sharyn.png",
+        link: "index.html",
+        github: "https://github.com/Sharynjanice/Portfolio",
+        featured: true
+    },
+    {
         title: "Collaboration avec Miels & Merveilles — Optimisation E-commerce",
         description: "Rôle : Collaboratrice e-commerce et web design. Contexte : Optimisation du site Shopify pour une entreprise de miels artisanaux et parfums, amélioration de l'expérience utilisateur, optimisation SEO, création de visuels marketing avec Canva. Missions : structuration des fiches produits, amélioration UX, organisation des collections, analyse de performances. Résultat : Contribution à l'amélioration de la conversion et de la présentation des produits. Collaboration de 1 mois en télétravail à partir du 23 Mars 2026.",
         technologies: ["Shopify", "Canva", "SEO", "UX/UI", "E-commerce"],
@@ -16,28 +25,28 @@ const projects = [
     {
         title: "Braids & Beauty — Site vitrine",
         description: "Rôle : développement front complet pour un vrai client. Contexte : création d'un site vitrine moderne pour une spécialiste des coiffures africaines à Turin, avec sections services, galerie, grille de tarifs et contact. Résultat : site responsive, clair et facile à parcourir sur mobile comme sur desktop.",
-        technologies: ["HTML", "CSS", "JavaScript"],
+        technologies: ["HTML", "CSS", "JavaScript", "Responsive"],
         image: "data/assests/mode/Braids.jpg",
         link: "https://braids-beauty.vercel.app/",
-        github: "#",
+        github: "https://github.com/Sharynjanice",
         featured: true
     },
     {
         title: "Refonte My SelfKey — Maquette Figma",
         description: "Rôle : UX/UI designer sur maquette haute fidélité. Contexte : refonte d'une plateforme existante (My SelfKey) pour simplifier les parcours, clarifier la hiérarchie de l'information et moderniser l'interface. Résultat : maquette Figma structurée par pages et composants réutilisables, prête pour une implémentation front-end.",
-        technologies: ["Figma", "UI/UX Design"],
+        technologies: ["Figma", "UI/UX Design", "Wireframes"],
         image: "data/assests/mode/Refonte.png",
         link: "https://www.figma.com/make/b5Jg13YxQbsZTrTNJs2W9c/Refonte-My-Self-Key-%E2%80%93-Maquette?fullscreen=1&t=0juIXHYdDE006n0E-1",
-        github: "#",
+        github: "https://github.com/Sharynjanice",
         featured: true
     },
     {
         title: "Bibliothèque en ligne",
         description: "Rôle : développement front d'une mini-application. Contexte : application web permettant de rechercher et afficher des livres à partir de données structurées. Résultat : interface responsive avec liste de livres, affichage dynamique et bases pour une future intégration d'API.",
-        technologies: ["JavaScript", "HTML", "CSS"],
+        technologies: ["JavaScript", "HTML", "CSS", "JSON"],
         image: "data/assests/mode/Bibliotequejpg.jpg",
         link: "#",
-        github: "https://github.com/sharynfoka"
+        github: "https://github.com/Sharynjanice"
     },
     {
         title: "Portfolio WordPress",
@@ -45,7 +54,16 @@ const projects = [
         technologies: ["WordPress", "PHP", "HTML", "CSS"],
         image: "data/assests/mode/Wordpress.png",
         link: "https://sharyn.fr/",
-        github: "#"
+        github: "https://github.com/Sharynjanice"
+    },
+    {
+        title: "GitHub — projets et dépôts",
+        description: "Je publie et mets à jour mes travaux sur GitHub afin de partager mes projets, mes prototypes et mes évolutions techniques. Cette page permet d'accéder rapidement à mon profil GitHub et aux réalisations qui complètent mon portfolio.",
+        technologies: ["Git", "GitHub", "Déploiement", "Collaboration"],
+        image: "data/assests/logo-sharyn.png",
+        link: "https://github.com/Sharynjanice",
+        github: "https://github.com/Sharynjanice",
+        featured: true
     }
 ];
 

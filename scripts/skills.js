@@ -5,70 +5,112 @@ const skillsContainer = document.getElementById('skills-container');
 const skills = [
     {
         name: 'JavaScript',
-        level: 50,
+        level: 75,
         icon: '💛',
         category: 'Langage',
         color: '#F7DF1E'
     },
     {
         name: 'HTML/CSS',
-        level: 65,
+        level: 80,
         icon: '🎨',
         category: 'Web',
         color: '#E34F26'
     },
     {
         name: 'WordPress',
-        level: 55,
+        level: 70,
         icon: '📝',
         category: 'CMS',
         color: '#21759B'
     },
     {
-        name: 'Git',
-        level: 50,
+        name: 'Python',
+        level: 60,
+        icon: '🐍',
+        category: 'Langage',
+        color: '#3776AB'
+    },
+    {
+        name: 'C',
+        level: 55,
+        icon: '🔧',
+        category: 'Langage',
+        color: '#A8B9CC'
+    },
+    {
+        name: 'Java',
+        level: 45,
+        icon: '☕',
+        category: 'Langage',
+        color: '#ED8B00'
+    },
+    {
+        name: 'C#',
+        level: 35,
+        icon: '#',
+        category: 'Langage',
+        color: '#239120'
+    },
+    {
+        name: 'SQL / NoSQL',
+        level: 60,
+        icon: '🗄️',
+        category: 'Base de données',
+        color: '#4479A1'
+    },
+    {
+        name: 'Linux (Debian)',
+        level: 60,
+        icon: '🐧',
+        category: 'Système',
+        color: '#FCC624'
+    },
+    {
+        name: 'Git / GitHub',
+        level: 70,
         icon: '🔀',
         category: 'Outils',
         color: '#F05032'
     },
     {
         name: 'Figma',
-        level: 50,
+        level: 70,
         icon: '🎨',
         category: 'Design',
         color: '#F24E1E'
     },
     {
-        name: 'React',
-        level: 35,
-        icon: '⚛️',
-        category: 'Framework',
-        color: '#61DAFB'
+        name: 'Canva',
+        level: 75,
+        icon: '🖼️',
+        category: 'Design',
+        color: '#00C4CC'
     },
     {
-        name: 'Node.js',
-        level: 30,
-        icon: '🟢',
-        category: 'Backend',
-        color: '#339933'
+        name: 'CapCut',
+        level: 55,
+        icon: '🎬',
+        category: 'Multimédia',
+        color: '#FF5A5F'
     },
     {
-        name: 'MySQL',
-        level: 40,
-        icon: '🗄️',
-        category: 'Base de données',
-        color: '#4479A1'
+        name: 'UX/UI',
+        level: 70,
+        icon: '🧩',
+        category: 'Design',
+        color: '#8B5CF6'
     },
     {
         name: 'Cybersécurité',
-        level: 40,
+        level: 45,
         icon: '🔒',
         category: 'Sécurité',
         color: '#FF6B6B'
     },
     {
         name: 'API REST',
-        level: 45,
+        level: 55,
         icon: '🔌',
         category: 'Web',
         color: '#00D9FF'

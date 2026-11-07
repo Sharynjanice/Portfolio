@@ -25,29 +25,30 @@
 
 <!-- ================= NAVIGATION ================= -->
 <header class="header" role="banner">
-    <a href="index.html#hero" class="logo" aria-label="Retour à l'accueil">
-        <img src="data/assests/logo-sharyn.png" alt="Logo Sharyn" class="logo-mark">
-        <span class="logo-text">SHARYN</span>
-    </a>
+    <div class="container header-inner">
+        <a href="index.html#hero" class="logo" aria-label="Retour à l'accueil">
+            <img src="data/assests/logo-sharyn.png" alt="Logo Sharyn" class="logo-mark">
+            <span class="logo-text">SHARYN</span>
+        </a>
 
-    <nav class="nav" id="navLinks" role="navigation" aria-label="Navigation principale">
-        <a href="index.html#hero" aria-label="Aller à l'accueil">Accueil</a>
-        <a href="index.html#about" aria-label="En savoir plus sur moi">À propos</a>
-        <a href="index.html#cv-download" aria-label="Voir mes CV">CV</a>
-        <a href="mode.html" aria-label="Voir ma recherche d'alternance">Alternance</a>
-        <a href="index.html#projects" aria-label="Voir les projets">Projets</a>
-        <a href="bibliotheque.html" aria-label="Voir la bibliothèque">Bibliothèque</a>
-        <a href="quiz.html" aria-label="Jouer au quiz">Quiz</a>
-        <a href="index.html#contact" aria-label="Me contacter">Contact</a>
-    </nav>
+        <nav class="nav" id="navLinks" role="navigation" aria-label="Navigation principale">
+            <a href="index.html#hero" aria-label="Aller à l'accueil">Accueil</a>
+            <a href="index.html#about" aria-label="En savoir plus sur moi">À propos</a>
+            <a href="index.html#experience" aria-label="Voir mon parcours">Parcours</a>
+            <a href="index.html#projects" aria-label="Voir les projets">Projets</a>
+            <a href="index.html#skills" aria-label="Voir mes compétences">Compétences</a>
+            <a href="index.html#cv-download" aria-label="Voir mes CV">CV</a>
+            <a href="index.html#contact" aria-label="Me contacter">Contact</a>
+        </nav>
 
-    <div class="header-actions">
-        <button class="theme-toggle" id="themeToggle" aria-label="Basculer entre le thème clair et sombre" title="Changer le thème">
-            <span class="theme-icon">MOON</span>
-        </button>
-        <button class="burger" id="burger" aria-label="Ouvrir le menu mobile" aria-expanded="false">
-            <span class="burger-icon">MENU</span>
-        </button>
+        <div class="header-actions">
+            <button class="theme-toggle" id="themeToggle" aria-label="Basculer entre le thème clair et sombre" title="Changer le thème">
+                <span class="theme-icon">MOON</span>
+            </button>
+            <button class="burger" id="burger" aria-label="Ouvrir le menu mobile" aria-expanded="false">
+                <span class="burger-icon">MENU</span>
+            </button>
+        </div>
     </div>
 </header>
 
@@ -63,65 +64,44 @@
         <div class="hero-text">
             <div class="hero-badge">
                 <span class="pulse-dot"></span>
-                <span>Disponible</span>
+                <span>3e année • recherche alternance / stage</span>
             </div>
             <h1>
-                <span class="gradient-text">Salut, moi c'est</span>
+                <span class="gradient-text">Bonjour, je suis</span>
                 <br>
-                <span>Sharyn</span>
+                <span>Sharyn Foka</span>
             </h1>
             <p class="hero-subtitle">
-                <span class="typing-text">Étudiante en informatique – 2ᵉ année développement</span>
+                <span class="typing-text">Bachelor Concepteur Développeur d'Applications Numériques</span>
                 <br>
-                <span style="font-size: 0.9em; color: #888; margin-top: 8px; display: block;">
-                    À la recherche d'une alternance en développement à partir de septembre (disponible dès juin)
-                </span>
+                <span class="hero-meta">À la recherche d'une alternance ou d'un stage en développement web / applications numériques.</span>
             </p>
             <div class="hero-tech-stack" aria-label="Technologies principales">
                 <div class="tech-icon" aria-label="JavaScript">JS</div>
-                <div class="tech-icon" aria-label="Développement web">Web</div>
-                <div class="tech-icon" aria-label="Design UI">UI</div>
-                <div class="tech-icon" aria-label="Design UX">UX</div>
+                <div class="tech-icon" aria-label="HTML/CSS">HTML</div>
+                <div class="tech-icon" aria-label="SQL">SQL</div>
+                <div class="tech-icon" aria-label="Python">PY</div>
             </div>
             <p class="hero-subtext">
-                Actuellement en stage de 2 mois en community management et création de sites web chez
-                <strong>High Level</strong> (Choisy-le-Roi, Paris) jusqu'au 1ᵉʳ mai.
+                J'aime concevoir des interfaces lisibles, des solutions fonctionnelles et des expériences numériques utiles.
             </p>
             <div class="hero-actions">
-                <a href="#projects" class="btn btn-primary">
-                    <span>Voir mes projets</span>
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                        <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </a>
-                <a href="#cv-download" class="btn btn-secondary">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                        <path d="M17.5 12.5V15.8333C17.5 16.2754 17.3244 16.6993 17.0118 17.0118C16.6993 17.3244 16.2754 17.5 15.8333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V12.5M13.3333 8.33333L10 11.6667M10 11.6667L6.66667 8.33333M10 11.6667V2.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                    <span>Voir mes CV (FR / EN)</span>
-                </a>
+                <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                <a href="#cv-download" class="btn btn-secondary">Voir mon CV</a>
             </div>
         </div>
         <div class="hero-visual">
-            <div class="code-window">
-                <div class="code-header">
-                    <span class="code-dot red"></span>
-                    <span class="code-dot yellow"></span>
-                    <span class="code-dot green"></span>
+            <div class="profile-card">
+                <div class="profile-card-header">
+                    <span class="profile-pill">Disponible</span>
+                    <span class="profile-status">Stage / Alternance</span>
                 </div>
-                <div class="code-content">
-                    <div class="code-line"><span class="code-keyword">const</span> <span class="code-var">sharyn</span> = {</div>
-                    <div class="code-line">  <span class="code-prop">role</span>: <span class="code-string">'Developer'</span>,</div>
-                    <div class="code-line">  <span class="code-prop">education</span>: <span class="code-string">'IPI Toulouse'</span>,</div>
-                    <div class="code-line">  <span class="code-prop">year</span>: <span class="code-number">2</span>,</div>
-                    <div class="code-line">  <span class="code-prop">skills</span>: [</div>
-                    <div class="code-line">    <span class="code-string">'JavaScript'</span>,</div>
-                    <div class="code-line">    <span class="code-string">'HTML/CSS'</span>,</div>
-                    <div class="code-line">    <span class="code-string">'WordPress'</span>,</div>
-                    <div class="code-line">    <span class="code-string">'C'</span></div>
-                    <div class="code-line">  ],</div>
-                    <div class="code-line">  <span class="code-prop">lookingFor</span>: <span class="code-string">'Alternance en développement (dès septembre, disponible dès juin)'</span></div>
-                    <div class="code-line">};</div>
+                <div class="profile-photo-wrap">
+                    <img src="data/assests/mode/openart-e8108d69de3744f2939a511b21d83146_raw.jpg" alt="Portrait Sharyn Foka">
+                </div>
+                <div class="profile-summary">
+                    <strong>Développement web</strong>
+                    <span>UI / UX • JavaScript • HTML/CSS • SQL • Python</span>
                 </div>
             </div>
         </div>
@@ -137,42 +117,37 @@
             </div>
         </div>
         <div class="about-content">
-            <div class="section-header section-header-left">
+            <div class="section-header section-header-left" id="experience">
                 <h2 id="about-title" class="section-title">
                     <span class="title-number">00.</span>
-                    À propos & expérience
+                    À propos & parcours
                 </h2>
                 <p class="section-subtitle">
-                    Développeuse en formation, avec un pied dans le community management et la création de sites web.
+                    Étudiante en 3e année de Bachelor Concepteur Développeur d'Applications Numériques, orientée alternance et développement web.
                 </p>
             </div>
             <div class="about-text">
                 <p>
-                    Je m'appelle <strong>Sharyn Foka</strong>, étudiante en 2ᵉ année de développement à l'IPI Toulouse.
-                    J'aime construire des interfaces claires, modernes et accessibles, aussi bien côté <strong>front-end</strong>
-                    que sur la partie <strong>contenu</strong> et <strong>expérience utilisateur</strong>.
+                    Je m'appelle <strong>Sharyn Foka</strong>, actuellement en <strong>3e année de Bachelor Concepteur Développeur d'Applications Numériques</strong>.
+                    Je suis passionnée par le développement web, les interfaces numériques, la logique applicative et la création de solutions utiles pour les utilisateurs.
                 </p>
                 <p>
-                    En ce moment, je réalise un <strong>stage de 2 mois</strong> en tant que
-                    <strong>community manager</strong> et <strong>créatrice de sites web</strong> chez
-                    <strong>High Level</strong>, une entreprise basée à <strong>Choisy-le-Roi (Paris)</strong>,
-                    que je termine le <strong>1ᵉʳ mai</strong>.
+                    Mon parcours combine <strong>formation technique</strong> et <strong>expérience professionnelle concrète</strong> :
+                    j’ai développé des compétences en intégration web, UX/UI, gestion de contenus, stratégie visuelle et organisation de projet, aussi bien dans un cadre académique que professionnel.
                 </p>
                 <ul class="about-list">
-                    <li>Création et refonte de sites vitrine modernes pour des clients variés.</li>
-                    <li>Gestion et planification de contenus sur les réseaux sociaux.</li>
-                    <li>Collaboration avec l'équipe sur l'image de marque et la cohérence visuelle.</li>
+                    <li>Création de sites vitrine et refontes de pages web.</li>
+                    <li>Travail sur les bases du développement front-end avec JavaScript, HTML et CSS.</li>
+                    <li>Conception d'interfaces modernes et lisibles, centrées sur l'utilisateur.</li>
+                    <li>Rigueur, autonomie et sens du service dans des environnements professionnels.</li>
                 </ul>
                 <p>
-                    Mon objectif : rejoindre une équipe tech en alternance où je peux contribuer sur des
-                    <strong>projets concrets</strong>, apprendre des bonnes pratiques (qualité, performance,
-                    accessibilité, sécurité) et continuer à progresser en développement web.
+                    Je cherche aujourd’hui une <strong>alternance</strong>, un <strong>stage</strong> ou une opportunité de <strong>recrutement</strong> en développement, afin de contribuer à des projets concrets et continuer à progresser dans un environnement technique sérieux.
                 </p>
             </div>
         </div>
     </div>
 </section>
-
 <!-- ================= CV DOWNLOAD ================= -->
 <section id="cv-download" class="section cv-section" aria-labelledby="cv-title">
     <div class="container">
@@ -213,22 +188,15 @@
 
 <!-- ================= PROJETS ================= -->
 <section id="projects" class="section projects-section" aria-labelledby="projects-title">
-    <div class="projects-video-background">
-        <video autoplay muted loop playsinline aria-hidden="true">
-            <source src="data/assests/projet.mp4" type="video/mp4">
-        </video>
-        <div class="projects-video-overlay"></div>
-    </div>
     <div class="container">
         <div class="section-header">
             <h2 id="projects-title" class="section-title">
-                <span class="title-number">01.</span>
+                <span class="title-number">02.</span>
                 Mes Projets
             </h2>
-            <p class="section-subtitle">Découvrez mes réalisations en développement</p>
+            <p class="section-subtitle">Quelques réalisations récentes et projets orientés web / UX.</p>
         </div>
         <div class="projects-grid" id="projects-container" role="list">
-            <!-- Les projets seront générés ici avec JS -->
             <div class="loading" id="projects-loading">Chargement des projets...</div>
         </div>
     </div>
@@ -236,19 +204,13 @@
 
 <!-- ================= COMPÉTENCES TECHNIQUES ================= -->
 <section id="skills" class="section skills-section" aria-labelledby="skills-title">
-    <div class="skills-video-background">
-        <video autoplay muted loop playsinline aria-hidden="true">
-            <source src="data/assests/competences.mp4" type="video/mp4">
-        </video>
-        <div class="skills-video-overlay"></div>
-    </div>
     <div class="container">
         <div class="section-header">
             <h2 id="skills-title" class="section-title">
-                <span class="title-number">02.</span>
+                <span class="title-number">03.</span>
                 Mes Compétences Techniques
             </h2>
-            <p class="section-subtitle">Technologies et outils que je maîtrise</p>
+            <p class="section-subtitle">Technologies et outils que je maîtrise aujourd’hui.</p>
         </div>
         <div id="skills-container" class="skills-grid">
             <!-- Les compétences seront générées ici avec JS -->
